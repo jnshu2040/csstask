@@ -29,13 +29,13 @@ body{background-color:#68cdd5}
 .box5{
     float:left;
     position:relative;
-    left:20%;
+    left:10%;
     width:30%;
     height:30%
 }
 .box6{
     float:right;
     position:relative;
-    right:20%;
+    right:10%;
     width:30%;
 }
