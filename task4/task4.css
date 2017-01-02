@@ -4,6 +4,7 @@ body{background-color: #eff0f4}
 html,body{height:100%}
 #box{width:100%;
     height:100%;
+    font-size:1.5rem;
 }
 .header,.input,.submit{color: white;}
 .header{position:fixed;top:0;left:0;
