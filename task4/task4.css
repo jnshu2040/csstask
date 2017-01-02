@@ -2,7 +2,9 @@ body{background-color: #eff0f4}
 .anniu{background-color:#5fc0cd}
 *{margin:0;padding:0;}
 html,body{height:100%}
-#box{width:100%;height:100%;}
+#box{width:100%;
+    height:100%;
+}
 .header,.input,.submit{color: white;}
 .header{position:fixed;top:0;left:0;
     background-color: #5fc0cd;
@@ -14,16 +16,15 @@ html,body{height:100%}
     width:100%;
     height:15%;/*header µÄ¸ß¶È???*/
 }
-.h-back{width:10%;height:30%;position:relative;left:2%;top:50%;
-    float:left;
+.h-back{width:20%;height:30%;position:relative;left:2%;top:50%;
+    float:left;font-size:2rem;
          }
-.h-back img{max-width: 100%;max-height: 100%}
-.h-denglu{width:20%;height:30%;position:relative;left:10%;top:50%;
-    float:left;}
+.h-denglu{width:30%;height:30%;position:relative;left:0%;top:50%;
+    float:left;font-size:2rem;}
 .h-denglu img{max-width: 100%;max-height: 100%;}
 .h-zhuce{width:15%;float:right;}
 
-.box1{width:100%;height:5%;}
+.box1{width:100%;height:2%;}
 
 .box-account{position:relative;top:-1px;
     width:100%;
@@ -79,5 +80,6 @@ table{
     border-radius:5%;
     width:100%;height:100%;
     font-size:2rem;
+
 
 }
