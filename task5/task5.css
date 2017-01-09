@@ -1,5 +1,9 @@
 *{margin:0;padding:0;}
 html{width:100%;font-size:62.5%;}
+html{
+      max-width:768px;
+    margin:0 auto;
+}
 body{width:100%;font-family:"Microsoft YaHei",hevetica arial sans-serif;font-size:1.5rem;}
 a{text-decoration:none;}
 /****header************************/
@@ -62,42 +66,75 @@ a{text-decoration:none;}
 .td-age{
     font-size:1.5rem;
 }
-/*******************************/
-.jineng-box-longline{
-    height:4rem;
-    width:100%;
-    border-bottom: 0.2rem solid #bbb;
+/***************************ººƒ‹ΩÈ…‹****/
+
+.skill-list{
+    line-height: 4rem;
+    font-size:1.5rem;
 }
-.jineng-box-shortline {
-    height:4rem;
-    width: 95%;
+.skill-list img{
+    height:1rem;
+}
+.li img{
+    height:1.3rem;
+    width:2rem;
+    min-width:2px;
+}
+.line-l{
+    width:100%;
+    height:2px;
+    background-color: gray;
+}
+.line-s{
     position:relative;
     left:5%;
-    border-bottom: 0.2rem solid #bbb;
-}
-.jineng-box-longline table{
-    line-height:2.5rem;
-    width:100%;
-    height:100%;
-}
-.jineng-box-shortline table{
-    line-height: 2.5rem;
     width:95%;
-    height:100%;
+    background-color:gray;
+    height:2px;
 }
+.row-1{
+    display: inline-block;
+    margin:0 1rem 0 5%;
+    vertical-align: top;
+}
+.row-1-l-grey{
+    width:0.2rem;
+    min-width:2px;
+}
+.col-1{
+    display: inline-block;
+    margin:0 1rem 0 5%;
+    color: gray;
+}
+.col-1 img{
+    width:0.2rem;
+    min-width:2px;
+}
+.price-red{
+    color: red;
+}
+.self-introdunction-box{
+    display:inline-block;
+    height:4rem;
+    width:16rem;
+    font-size:1rem;
+    line-height:1.5rem;
+    vertical-align:middle;
+}
+
+
 /**************************************/
+
 .bottom{
     width:100%;
-    height:8%;
+    height:4rem;
     margin:0  auto;
     position:fixed;
-    bottom:3%;
-    max-width: 720px;
+    bottom:1rem;
 }
 .bottom0{
     width:100%;
-    height:20%;
-    max-width:720px;
+    height:5rem;
 }
 .message{
     width:40%;
@@ -108,6 +145,7 @@ a{text-decoration:none;}
     color: #44aabb;
     border-radius:5px;
     text-align: center;
+    line-height: 4rem;
 }
 .callme{
     width:40%;
@@ -119,8 +157,5 @@ a{text-decoration:none;}
     color:#fff;
     border-radius:5px;
     text-align: center;
-}
-.bottom-table{
-    width:100%;
-    height:100%;
+    line-height: 4rem;
 }
