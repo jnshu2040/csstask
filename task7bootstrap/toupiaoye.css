@@ -7,9 +7,12 @@ html{
     font-size:calc(100vw/6.4);/*(10/14*100%)*/
     font-family:"Hiragino Sans GB W3","Microsoft YaHei UI",sans-serif;
 }
+@media (min-width:320px){html {font-size:calc(100vw/6.4);}}
+@media (min-width:360px){html {font-size:calc(100vw/7.2);}}
+@media (min-width:480px){html {font-size:calc(100vw/11.6);}}
 body{width:100%;}
 body{
-    max-width: 6.40rem;
+    max-width: 640px;
     font-size:0.24rem;
     background-color: #29bde0;
     padding-top:1.28rem;
@@ -22,7 +25,7 @@ body{
     position:fixed;
     top:0;
     width:100%;
-    max-width: 6.4rem;
+    max-width: 640px;
     font-size:0.3rem;
     line-height: 0.4rem;
     text-align:center;
@@ -67,21 +70,22 @@ body{
 }
 /*********************************************************/
 .main-box{
-    width:100%;
+    width:6.12rem;
     height:6.45rem;
     margin:0.55rem auto 0 auto;
-    overflow: scroll;
 }
 
 .select-box{
     float:left;
-    width:1.95rem;
+    width:2.03rem;
+    max-width:203px;
 }
 .person{
     width:1.36rem;
     border:0.05rem solid #fff;
     margin:0 auto;
 }
+
 .line-h{
     line-height:0.99rem;
     background-color:#f5c97b;
@@ -123,7 +127,7 @@ body{
     position:fixed;
     bottom:0;
     width:100%;
-    max-width:6.4rem;
+    max-width:640px;
     background-color:#29bde0;
 }
 .footer-box button{
