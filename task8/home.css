@@ -1,0 +1,305 @@
+*{
+    margin:0;
+    padding:0;
+}
+a,p,span,h1,h2,h3,h4,h5,h6{margin:0}
+html{
+    font-size:14px;
+    width:100%;
+    font-family:"Microsoft YaHei",Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+body{
+    width:100%;
+    max-width:1920px;
+    background-color: #fafafa;
+}
+.header-box{
+    width:100%;
+    background-color: #fff;
+}
+.header-1200-box{
+    width:1200px;
+    margin:0 auto;
+    height:40px;
+}
+.header-tel-box{
+    float:left;
+}
+.header-tel{
+    color:green;
+    line-height:40px;
+}
+.header-share-box{
+    float:right;
+    text-align: left;
+}
+.header-share-box span{
+    display: inline-block;
+    height:24px;
+    width:24px;
+    margin-top:8px;
+}
+.header-share-box span a img{
+    height:24px;
+    width:24px;
+    opacity: 0;
+}
+.header-share-box span a img:hover{
+    opacity: 1;
+}
+.weixin-span{
+    background-image:url("pic/weixin.png");
+    background-repeat:round;
+}
+.qq-span{
+    background-image: url("pic/qq.png");
+    margin-right:19px;
+    margin-left:19px;
+}
+.weibo-span{
+    background-image: url("pic/weibo.png");
+    margin-right:3px;
+}
+/************************************/
+.menu-box{
+    width:100%;
+    background-color:#29b078;
+    text-align: right;
+}
+.menu-1200-box{
+    width:1200px;
+    margin:0 auto;
+
+}
+.logo-box{
+    float:left;
+    margin-top:20px;
+}
+.logo-box a img{
+    height:60px;
+    width:160px;
+}
+.menu span{
+    display:inline-block;
+    font-size: 16px;
+    line-height:96px;
+    padding:0 30px;
+    margin:0;
+    color:#fff;
+    border-bottom:4px solid #29b078;
+}
+.menu span:hover{
+    border-bottom:4px solid #fff;
+}
+.about-right{
+    padding-right:0 !important;/***********不知道为什么*****************/
+}
+/*轮播图*/
+.main-1200-box{
+    width:1200px;
+    margin:165px auto;
+}
+.feature-box{
+    width:225px;
+}
+.feature-img{
+    line-height: 80px;
+    text-align: center;
+}
+.feature-h3{
+    line-height:64px;
+    text-align: center;
+    font-size:18px;
+    font-weight:bold;
+}
+.feature-p{
+    font-size:17px;
+    color:gray;
+    line-height: 26px;
+}
+
+.count-box{
+    width:225px;
+    padding-top:40px;
+    padding-left:32px;
+}
+.count-h4{
+    font-size:16px;
+    font-weight:bold;
+    color:green;
+    line-height:32px;
+    margin-top:16px;
+}
+.count-p{
+    font-size:16px;
+    color: gray;
+    line-height:32px;
+}
+/**************************/
+.how-to-learn{
+    margin:150px auto 0 auto;
+    text-align: center;
+    font-weight:bold;
+}
+/********************/
+
+.step-box{
+    width:400px;
+    margin:50px 0;
+}
+.step-num{
+    display: inline-block;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color: #fff;
+    text-align: center;
+    border:2px solid #eee;
+    margin:0;
+}
+.step-num p{
+    line-height:66px;
+    color: green;
+}
+.step-text{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:18px;
+}
+.step-text p{
+    font-size:14px;
+    line-height:28px;
+}
+.step-box img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:36px;
+}
+/***********************************/
+.youxiuxueyuanzhanshi{
+    margin:70px auto 50px auto;
+    font-weight: bold;
+    text-align: center;
+}
+.show-box{
+    width:270px;
+    height:370px;
+    background-color: #fff;
+    padding:16px 32px 32px 32px;
+    border:2px solid #eee;
+}
+.touxiang-box{
+    border-radius:50%;
+    width:108px;
+    height:108px;
+    margin:0 auto;
+}
+.touxiang-box img{
+    height:108px;
+    width:108px;
+}
+.show-name{
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+    margin-top:40px;
+}
+.show-text{
+    color: gray;
+    margin-top: 18px;
+    line-height: 26px;
+}
+/***********************************************/
+.hezuoqiye{
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top:130px;
+}
+.name-card-box{
+    background-color: #fff;
+    border-radius:3px;
+    margin-top:50px;
+}
+.name-card-box img{
+    display: inline-block;
+    width:236.81px;
+    border-top:2px solid #fafafa;
+    border-bottom:2px solid #fafafa; ;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-radius:3px;
+}
+.name-card-box img:hover{
+    border:2px solid #eee;
+}
+.name-card img{
+    max-width: 100%;
+}
+/*************************************/
+.link-box{
+    background-color: #fff;
+    width:100%;
+}
+.link-1200-box{
+    margin:0 auto;
+    max-width:1200px;
+    width:100%;
+}
+.youqinglianjie{
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 48px;
+    margin-top:93px;
+}
+.friendlink{
+    width:100%;
+    background-color: #fff;
+    color: gray;
+}
+.link{
+    display: inline-block;
+    line-height:28px;
+    padding:0 30px;
+}
+.footer-box{
+    width:100%;
+    background-color: #26a26f;
+    padding-top:38px;
+    color: #fff;
+}
+.footer-1200-box{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+.footer-line-height{
+    line-height:70px;
+}
+.footer-bottom{
+    margin-bottom:30px;
+}
+.corp-box{
+    width:100%;
+    background-color: #26a26f;
+    text-align: center;
+    line-height:30px;
+    border-top:1px solid #32c086;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
