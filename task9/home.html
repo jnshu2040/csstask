@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" lang="en">
+    <title>技能树首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="home.css" type="text/css" >
+</head>
+<body>
+<!--头-->
+<div class="header-box">
+        <div class="container-fluid">
+            <div class="row clearfix">
+                <div class="col-xs-6 column">
+                        <span class="header-tel">
+                            客服电话:010-594-78634
+                        </span>
+                </div>
+                <div class="col-xs-6 column">
+                    <div class="header-share-box">
+                           <span class="weixin-span">
+                               <a href="#"><img src="pic/weixin-1.png"></a></span>
+                           <span class="qq-span">
+                               <a href="#"><img src="pic/qq-1.png"></a></span>
+                           <span class="weibo-span">
+                              <a href="#"><img src="pic/weibo-1.png"></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- 菜单-->
+<div class="nav-box">
+    <div class="container-fluid">
+                <nav class="navbar margin-0 navbar-default" role="navigation"><!--响应导航栏-->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                    data-target="#example-navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class=" navbar-brand padding-0">
+                                <img class="pttlogo" src="pic/pttlogo.png">
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="home.html"><span>首页</span></a></li>
+                                <li><a href="list.html"><span>职业</span></a></li>
+                                <li><a href="hezuoye.html"><span>推荐</span></a></li>
+                                <li><a href="#"><span>关于</span></a></li>
+                            </ul>
+                        </div>
+                </nav>
+    </div>
+</div>
+<!--轮播图-->
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="pic/banner1.png" alt="First slide">
+        </div>
+        <div class="item">
+            <img src="pic/banner2.png" alt="Second slide">
+        </div>
+        <div class="item">
+            <img src="pic/banner3.png" alt="Third slide">
+        </div>
+        <div class="item">
+            <img src="pic/banner4.png" alt="Third slide">
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel"
+       data-slide="prev">&lsaquo;
+    </a>
+    <a class="carousel-control right" href="#myCarousel"
+       data-slide="next">&rsaquo;
+    </a>
+</div>
+
+<!--轮播图结束-->
+
+<div class="container-fluid">
+    <div class="row clearfix">
+<!----------------------------------------->
+            <div class="col-sm-3">
+                <div class="feature-box">
+                    <p class="feature-img"><img src="pic/rocket.png"></p>
+                    <p class="feature-h3">高效</p>
+                    <p class="feature-p">将五到七年的成长时间，缩短到一年到三年。</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="feature-box">
+                    <p class="feature-img"><img src="pic/archive.png"></p>
+                    <p class="feature-h3">规范</p>
+                    <p class="feature-p">标准的实战教程，不会走弯路</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="feature-box">
+                    <p class="feature-img"><img src="pic/renmai.png"></p>
+                    <p class="feature-h3">人脉</p>
+                    <p class="feature-p">同班好友，同院学长，技术大师，入学就混入职脉圈。</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="count-box">
+                    <h4 class="count-h4"><img src="pic/user.png">
+                        12400</h4>
+                    <p class="count-p">累计在线学习人数</p>
+
+                    <h4 class="count-h4"><img src="pic/user.png">
+                    12400</h4>
+                    <p class="count-p">学员已经找到满意工作</p>
+                </div>
+            </div>
+    </div><!--row-->
+    <div class="how-to-learn"><p>如何学习</p></div>
+    <!------------------------------------------------------------------------------->
+    <div class="row clearfix">
+           <div class="col-lg-6 column">
+               <div class="row clearfix">
+                   <div class="col-sm-6 column">
+                       <div class="step-box">
+                           <div class="step-num">
+                               <p>1</p>
+                           </div>
+                           <div class="step-text">
+                               <p>匹配你现在的个人情况</p>
+                               <p>寻找适合自己的岗位</p>
+                           </div>
+                           <img src="pic/then.png">
+                       </div>
+                   </div>
+                   <div class="col-sm-6 column">
+                       <div class="step-box">
+                           <div class="step-num">
+                               <p>2</p>
+                           </div>
+                           <div class="step-text">
+                               <p>匹配你现在的个人情况</p>
+                               <p>寻找适合自己的岗位</p>
+                           </div>
+                           <img src="pic/then.png">
+                       </div>
+
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-6 column margin-0">
+               <div class="row clearfix">
+                   <div class="col-sm-6 column">
+                       <div class="step-box">
+                           <div class="step-num">
+                               <p>3</p>
+                           </div>
+                           <div class="step-text">
+                               <p>匹配你现在的个人情况</p>
+                               <p>寻找适合自己的岗位</p>
+                           </div>
+                           <img src="pic/then.png">
+                       </div>
+                   </div>
+                   <div class="col-sm-6 column">
+                       <div class="step-box">
+                           <div class="step-num">
+                               <p>4</p>
+                           </div>
+                           <div class="step-text">
+                               <p>匹配你现在的个人情况</p>
+                               <p>寻找适合自己的岗位</p>
+                           </div>
+                           <img src="pic/then.png">
+                       </div>
+
+                   </div>
+               </div>
+           </div>
+    </div>
+
+    <div class="row clearfix">
+           <div class="col-lg-6 column">
+               <div class="row clearfix">
+                   <div class="col-sm-6 column">
+                       <div class="step-box">
+                           <div class="step-num">
+                               <p>5</p>
+                           </div>
+                           <div class="step-text">
+                               <p>匹配你现在的个人情况</p>
+                               <p>寻找适合自己的岗位</p>
+                           </div>
+                           <img src="pic/then.png">
+                       </div>
+
+                   </div>
+                   <div class="col-sm-6 column">
+                       <div class="step-box">
+                           <div class="step-num">
+                               <p>6</p>
+                           </div>
+                           <div class="step-text">
+                               <p>匹配你现在的个人情况</p>
+                               <p>寻找适合自己的岗位</p>
+                           </div>
+                           <img src="pic/then.png">
+                       </div>
+
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-6 column margin-0">
+               <div class="row clearfix">
+                   <div class="col-sm-6 column">
+                       <div class="step-box">
+                           <div class="step-num">
+                               <p>7</p>
+                           </div>
+                           <div class="step-text">
+                               <p>匹配你现在的个人情况</p>
+                               <p>寻找适合自己的岗位</p>
+                           </div>
+                           <img src="pic/then.png">
+                       </div>
+
+                   </div>
+                   <div class="col-sm-6 column">
+                       <div class="step-box">
+                           <div class="step-num">
+                               <p>8</p>
+                           </div>
+                           <div class="step-text">
+                               <p>匹配你现在的个人情况</p>
+                               <p>寻找适合自己的岗位</p>
+                           </div>
+                           <img src="pic/then.png">
+                       </div>
+
+                   </div>
+               </div>
+           </div>
+    </div>
+
+
+<!--____________________________-->
+    <div class="youxiuxueyuanzhanshi">优秀学员展示</div>
+
+    <div class="row clearfix">
+        <div class="col-md-6 column">
+            <div class="row clearfix">
+                <div class="col-sm-6 column">
+                    <div class="show-box">
+                        <div class="touxiang-box">
+                            <img src="pic/luodayou.png">
+                        </div>
+                        <p class="show-name">技术顾问：罗大佑</p>
+                        <p class="show-text">百度技术总监：互联网基础 服务领域，从事虚拟主机、 云服务器、域名。曾任新网 高级技术经理，负责技术研 发、团队管理与建设。</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 column">
+                    <div class="show-box">
+                        <div class="touxiang-box">
+                            <img src="pic/luodayou.png">
+                        </div>
+                        <p class="show-name">技术顾问：罗大佑</p>
+                        <p class="show-text">百度技术总监：互联网基础 服务领域，从事虚拟主机、 云服务器、域名。曾任新网 高级技术经理，负责技术研 发、团队管理与建设。</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 column margin-0">
+            <div class="row clearfix">
+                <div class="col-sm-6 column">
+                    <div class="show-box">
+                        <div class="touxiang-box">
+                            <img src="pic/luodayou.png">
+                        </div>
+                        <p class="show-name">技术顾问：罗大佑</p>
+                        <p class="show-text">百度技术总监：互联网基础 服务领域，从事虚拟主机、 云服务器、域名。曾任新网 高级技术经理，负责技术研 发、团队管理与建设。</p>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 column">
+                    <div class="show-box">
+                        <div class="touxiang-box">
+                            <img src="pic/luodayou.png">
+                        </div>
+                        <p class="show-name">技术顾问：罗大佑</p>
+                        <p class="show-text">百度技术总监：互联网基础 服务领域，从事虚拟主机、 云服务器、域名。曾任新网 高级技术经理，负责技术研 发、团队管理与建设。</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--__________________________________________--->
+    <div class="hezuoqiye">合作企业</div>
+    <div class="name-card-box">
+            <img src="pic/alibaba.png">
+            <img src="pic/jinshanyun.png">
+            <img src="pic/huanxin.png">
+            <img src="pic/ronglian.png">
+            <img src="pic/qiniu.png">
+    </div>
+    <!--_________________________________________-->
+
+
+<div class="link-box">
+    <div class="link-1200-box">
+    <div class="friendlink">
+        <div class="youqinglianjie">友情链接</div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+        <div class="link"><ul><li>手机软件</li></ul></div>
+    </div>
+    </div>
+</div>
+<!--________________________________________________________________________-->
+<div class="footer-box">
+    <div class="container-fluid">
+        <div class="row clearfix">
+            <div class="col-sm-4">
+                <span>技能树 -- 改变你我</span>
+                <p class="footer-line-height">&nbsp;</p>
+                <p>关于我们 | 联系我们 | 合作企业</p>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                     <div class="col-xs-4">
+                         <p>旗下网站</p>
+                         <p class="footer-line-height">草船云孵化器</p>
+                         <p class="footer-bottom">葡萄藤轻游戏</p>
+                     </div>
+                     <div class="col-xs-8">
+                         <p> &nbsp;</p>
+                         <p class="footer-line-height">最强IT特训营</p>
+                         <p>桌游精灵</p>
+                     </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                    <p>微信公众平台</p>
+                    <img src="pic/qrcode.png">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="corp-box">
+
+
+    Copyright © 2015技能树 www.jnshu.com  All Rights Reserved | 京ICP备13005880号
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<!--------jieshu---------xxxxxxxxxxxxxxxxxxxx-----xxxxxxxxxxxxxxxxxxxxxxxxxx---------------------------------------------------->
+<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) --
+<script src="js/jquery-3.1.1.min.js"></script>
+<!-- 包括所有已编译的插件 --
+<script src="js/bootstrap.js"></script>-->
+</body>
+</html>
