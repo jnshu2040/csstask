@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" lang="en">
+    <title>技能树首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="51box.css" type="text/css" >
+</head>
+<body>
+<!--header-->
+<header class="header">
+     <div class="container w1230">
+         <div class="row">
+              <div class="col-xs-6">
+                  客服热线：<a href="#" class="clr-wt">010-594-78634</a>
+              </div>
+              <div class="col-xs-6 tln-r"  >
+                  <span class="login"><a href="#" class="clr-wt">登录</a></span>
+                  <span class="register"><a href="#" class="clr-wt">注册</a></span>
+              </div>
+         </div>
+     </div>
+</header>
+<div class="nav-box">
+    <div class="container-fluid w1230 bold tln-r">
+        <button class="btn-default nav-btn nav-btn-act">首页</button>
+        <button class="btn-default nav-btn">在线定制</button>
+        <button class="btn-default nav-btn">标准箱</button>
+        <button class="btn-default nav-btn">品质保障</button>
+    </div>
+</div>
+<div class="container w1230 tln-r">
+    <div class="step-item">
+        <div class="step-strip step-act"></div><div class="step-dot tln-c step-act"><span>1</span></div><div class="step-strip step-act"></div>
+        <div class="tln-c" >定制纸箱</div>
+    </div>
+    <div class="step-item">
+        <div class="step-strip"></div><div class="step-dot tln-c"><span>2</span></div><div class="step-strip"></div>
+        <div class="tln-c" >选择数量</div>
+    </div>
+    <div class="step-item">
+        <div class="step-strip"></div><div class="step-dot tln-c"><span>3</span></div><div class="step-strip"></div>
+        <div class="tln-c" >上传附件</div>
+    </div>
+    <div class="step-item">
+        <div class="step-strip"></div><div class="step-dot tln-c"><span>4</span></div><div class="step-strip"></div>
+        <div class="tln-c" >确认下单</div>
+    </div>
+</div>
+<div class="container w1230  bold">
+    <div class="step1-tip" >
+    <span class="clr-1">｜</span>请您按照一下步骤来定制您的纸箱</div>
+</div>
+<!--表单正文开始-->
+<div class="container w1230">
+    <form action="#" class="form" id="step1"></form>
+    <div class="row clearfix step1-form-header">
+        <div class="col-sm-12">
+            <img src="pic/type.png"><span> 选择箱型</span>
+        </div>
+    </div>
+    <div class="row clearfix step1-form-type tln-c">
+        <div class="col-sm-2 column">
+            <label><input type="radio" id="1-1" name="radio-2-set" class="regular-radio " /><label for="1-1"></label>对口箱 </label>
+        </div>
+        <div class="col-sm-2 column">
+            <label><input type="radio" id="1-2" name="radio-2-set" class="regular-radio " /><label for="1-2"></label>飞机盒</label>
+        </div>
+        <div class="col-sm-2 column">
+            <label><input type="radio" id="1-3" name="radio-2-set" class="regular-radio " /><label for="1-3"></label>天地盖</label>
+        </div>
+        <div class="col-sm-2 column">
+        </div>
+        <div class="col-sm-2 column">
+        </div>
+        <div class="col-sm-2 column tln-r">
+
+            <div class="btn-group"> <!--按钮下拉菜单-->
+                <button type="button" class="btn btn-default dropdown-toggle"
+                        data-toggle="dropdown">
+                    查看详情<div class="caret-box"> <span class="caret"></span></div>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">对口箱</a></li>
+                    <li><a href="#">飞机盒</a></li>
+                    <li><a href="#">天地盖</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="row clearfix step1-form-header">
+        <div class="col-sm-12 column">
+            <img src="pic/size.png"><span class="clr-1"> 确定尺寸</span>
+        </div>
+    </div>
+    <div class="row clearfix ">
+        <div class="col-sm-10 step1-form-size">
+            <div class="row tln-c ">
+                <div class="col-sm-2 column  mg-tb-25">
+                    <label><input type="radio" id="2-1" name="radio-2-set" class="regular-radio " /><label for="2-1"></label></label>
+                </div>
+                <div class="col-sm-2 column  mg-tb-25">
+                    长<input  name="longth" value="" form="step1" class="w48">mm
+                </div>
+                <div class="col-sm-2 column  mg-tb-25">
+                    宽<input  name="width" value="" form="step1" class="w48">mm
+                </div>
+                <div class="col-sm-2 column  mg-tb-25">
+                    高<input  name="height" value="" form="step1" class="w48">mm
+                </div>
+            </div>
+            <div class="row clearfix tln-c">
+                <div class="col-sm-2 column  mg-b-25">
+                    <label><input type="radio" id="2-2" name="radio-2-set" class="regular-radio " /><label for="2-2"></label>内径</label>
+                </div>
+                <div class="col-sm-2 column  mg-b-25">
+                    长<input  name="longth" value="" form="step1" class="w48">mm
+                </div>
+                <div class="col-sm-2 column  mg-b-25">
+                    宽<input  name="width" value="" form="step1" class="w48">mm
+                </div>
+                <div class="col-sm-2 column  mg-b-25">
+                    高<input  name="height" value="" form="step1" class="w48">mm
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 step1-form-detail tln-r size-detail">
+                    <div class="btn-group"> <!--按钮下拉菜单-->
+                        <button type="button" class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                            查看详情<div class="caret-box"> <span class="caret"></span></div>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">外径</a></li>
+                            <li><a href="#">内径</a></li>
+                        </ul>
+                    </div>
+
+        </div>
+    </div>
+
+    <div class="row clearfix step1-form-header">
+        <div class="col-sm-12 column ">
+            <img src="pic/material.png"><span class="clr-1"> 选择材质</span>
+        </div>
+    </div>
+    <div class="row clearfix tln-c step1-form-material">
+        <div class="col-sm-2 column  ">
+            <label><input type="radio" id="3-1" name="radio-2-set" class="regular-radio " /><label for="3-1"></label>三层A瓦优质</label>
+        </div>
+        <div class="col-sm-2 column ">
+            <label><input type="radio" id="3-2" name="radio-2-set" class="regular-radio " /><label for="3-2"></label>三层A瓦优质</label>
+        </div>
+        <div class="col-sm-2 column">
+            <label><input type="radio" id="3-3" name="radio-2-set" class="regular-radio " /><label for="3-3"></label>三层A瓦优质</label>
+        </div>
+        <div class="col-sm-2 column">
+            <label><input type="radio" id="3-4" name="radio-2-set" class="regular-radio " /><label for="3-4"></label>三层A瓦优质</label>
+        </div>
+        <div class="col-sm-2 column">
+            <label><input type="radio" id="3-5" name="radio-2-set" class="regular-radio " /><label for="3-5"></label>三层A瓦优质</label>
+        </div>
+        <div class="col-sm-2 column tln-r vln-m">
+            <div class="btn-group"> <!--按钮下拉菜单-->
+                <button type="button" class="btn btn-default dropdown-toggle"
+                        data-toggle="dropdown">
+                    查看详情<div class="caret-box"> <span class="caret"></span></div>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">三层A瓦优质</a></li>
+                    <li><a href="#">三层A瓦优质</a></li>
+                    <li><a href="#">三层A瓦优质</a></li>
+                    <li><a href="#">三层A瓦优质</a></li>
+                    <li><a href="#">三层A瓦优质</a></li>
+                    <li><a href="#">三层A瓦优质</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
