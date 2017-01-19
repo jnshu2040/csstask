@@ -1,0 +1,80 @@
+.b-clr-1 {
+  background-color: #5fc0cd;
+}
+.b-clr-2 {
+  background-color: #eff0f4;
+}
+.f-clr-f {
+  color: #fff;
+}
+/********************/
+html {
+  width: 100%;
+  font-size: 28px;
+}
+body {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #eff0f4;
+}
+.header-box {
+  background-color: #5fc0cd;
+  color: #fff;
+  width: 100%;
+  padding-top: 40px;
+  line-height: 88px;
+  text-align: center;
+}
+.header-box .close {
+  float: left;
+  margin-left: 32px;
+}
+.header-box .login {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 28px;
+}
+.header-box .register {
+  float: right;
+  margin-right: 32px;
+}
+.form-box {
+  overflow: hidden;
+  width: 100%;
+  margin: 17px 0;
+  padding: 24px 0;
+  background-color: #fff;
+  vertical-align: middle;
+}
+.form-box .img-box {
+  float: left;
+  width: 13%;
+  margin: 4px 0;
+  text-align: center;
+}
+.form-box .img-box .img {
+  width: 24px;
+  height: auto;
+}
+.form-box .num {
+  float: left;
+  height: 44px;
+  border: 0;
+  width: 80%;
+  border-left: 2px solid #eff0f4;
+  font-size: 24px;
+  padding-left: 3%;
+}
+.submit {
+  width: 100%;
+  line-height: 100px;
+  margin-top: 48px;
+  background-color: #5fc0cd;
+  font-size: 32px;
+  color: #ffffff;
+}
+.forget {
+  text-align: right;
+  width: 100%;
+}

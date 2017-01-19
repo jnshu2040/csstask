@@ -1,0 +1,79 @@
+@bg-c1:#5fc0cd;
+@bg-c2:#eff0f4;
+@clr:#fff;
+.b-clr-1{background-color:@bg-c1}
+.b-clr-2{background-color:@bg-c2}
+.f-clr-f{ color: #fff;  }
+
+/********************/
+html{
+  width:100%;
+  font-size:28px;
+}
+body{
+  width:100%;
+  max-width:640px;
+  margin:0 auto;
+  background-color:@bg-c2;
+}
+.header-box{
+  .b-clr-1;
+  .f-clr-f;
+  width:100%;
+  padding-top:40px;
+  line-height:88px;
+  text-align: center;
+  .close{
+    float:left;
+    margin-left:32px;
+    }
+  .login{
+    display: inline-block;
+    margin:0 auto;
+    font-size:28px;
+  }
+  .register{
+    float:right;
+    margin-right:32px;
+  }
+}
+.form-box{
+  overflow: hidden;
+  width:100%;
+  margin:17px 0;
+  padding:24px 0;
+  background-color: #fff;
+  vertical-align: middle;
+  .img-box {
+     float: left;
+     width:13%;
+     margin:4px 0;
+     text-align: center;
+     .img {
+      width: 24px;
+      height: auto;
+     }
+  }
+  .num{
+      float: left;
+      height:44px;
+      border:0;
+      width:80%;
+      border-left:2px solid @bg-c2;
+      font-size:24px;
+      padding-left:3%;
+  }
+}
+.submit{
+  width:100%;
+  line-height:100px;
+  margin-top:48px;
+  background-color: @bg-c1;
+  font-size:32px;
+  color:@clr;
+}
+.forget{
+  text-align: right;
+  width:100%;
+}
+
