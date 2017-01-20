@@ -1,0 +1,153 @@
+*{margin: 0;padding: 0;}
+html{width: 100%;font-size: 62.5%;}
+html{
+    max-width: 640px;
+    margin:0 auto;
+}
+body{
+    width: 100%;
+    font-family: "Microsoft YaHei",hevetica arial sans-serif;
+    font-size: 1.5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+a{text-decoration: none;}
+/****header************************/
+li{
+    list-style: none;
+}
+.header-box{
+    background-color: #4ab;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 640px;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    line-height: 3rem;
+    padding: 2rem 0 1rem 0;
+}
+.back{
+    position: absolute;
+    left: 3%;
+    color: #fff;
+    font-size: 3rem;
+
+}
+/******************info*****************/
+.info-box{
+    display: flex;
+    align-items: center;
+    background-image: url(pic/beijing.png);
+    background-repeat: round;
+    width: 100%;
+    height: 14rem;
+}
+.info-touxiang{
+    width: 7rem;
+    height: 7rem;
+    margin: 0 1rem 0 2rem;
+}
+.info-table{
+    display: block;
+    width: 60%;
+    min-width: 10rem;
+    height: 5.5rem;/*(1.5+2)+2*(2/2)*/
+    color: #fff;
+}
+.info-table img{
+    width: 1.1rem;
+    height: 1.4rem;
+}
+.td-name{
+    font-size: 2rem;
+}
+.td-age{
+    font-size: 1.5rem;
+}
+/**************skill list*******************/
+
+.skill-list{
+    line-height: 4rem;
+    font-size: 1.5rem;
+}
+.skill-list img{
+    height: 1.2rem;
+}
+.line-l{
+    width: 100%;
+    height: 2px;
+    background-color: #eee;
+}
+.line-s{
+    position: relative;
+    left: 5%;
+    width: 95%;
+    background-color: #eee;
+    height: 2px;
+}
+.row-1{
+    display: inline-block;
+    margin: 0 1rem 0 5%;
+    vertical-align: top;
+}
+.row-1-l-grey{
+    width: 0.2rem;
+    min-width: 2px;
+}
+.col-1{
+    display: inline-block;
+    margin: 0 1rem 0 5%;
+    color: gray;
+}
+.price-red{
+    color: red;
+}
+.intro-box{
+    width: 100%;
+}
+.flt-l{
+    float: left;
+}
+.intro-text{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    min-height: 4rem;
+}
+
+/*************footer*************************/
+
+.bottom{
+    width: 100%;
+    max-width: 640px;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+}
+.message{
+    width: 40%;
+    margin-left: 3%;
+    float: left;
+    border: 2px solid #44aabb;
+    color: #44aabb;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.callme{
+    width: 40%;
+    margin-right: 3%;
+    float: right;
+    border: 2px solid #44aabb;
+    background-color: #44aabb;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
