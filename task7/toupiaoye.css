@@ -3,10 +3,11 @@
     padding:0;
 }
 html{
+    width:100%;
     font-size:62.5%;
     font-family:"Microsoft YaHei",Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-html body{width:100%;max-width:768px;}
+body{width:100%;}
 body{
     font-size:1.4rem;
     background-color: #69d1e9;

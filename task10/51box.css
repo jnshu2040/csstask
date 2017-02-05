@@ -58,7 +58,7 @@ body{
     background-color: #1d7ad9;
     color: #fff;
 }
-/*导航_______~~~~~进度~~~~~~~~~~~~*/
+/*瀵艰埅_______~~~~~杩涘害~~~~~~~~~~~~*/
 
 .step-dot{
     display: inline-block;
@@ -97,7 +97,7 @@ body{
     margin-top:40px;
     margin-left:-16px;
 }
-/*进度____~~~~表单~~~~~*/
+/*杩涘害____~~~~琛ㄥ崟~~~~~*/
 .w48{
     width:48px;
 }
@@ -176,7 +176,7 @@ body{
 }
 .caret{color:#fff;}
 
-/*自定义单选框*/
+/*鑷畾涔夊崟閫夋*/
 /* RADIO */
 
 .regular-radio {

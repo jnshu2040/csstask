@@ -106,7 +106,7 @@ body{
 
 
 
-/*�ֲ�ͼ*/
+/*�ֲ�ͼ*/
 .main-1200-box{
     width:1200px;
     margin:165px auto;
@@ -276,6 +276,8 @@ body{
     line-height:28px;
     padding:0 30px;
 }
+
+/*noinspection LossyEncoding*/
 .footer-box{
     width:100%;
     background-color: #26a26f;
