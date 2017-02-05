@@ -1,0 +1,13 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 640px;
+    padding-top:64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    background-color: #29bde0;
+}
+body{padding-top: 128px;}

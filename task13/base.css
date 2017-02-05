@@ -1,0 +1,28 @@
+*{margin: 0;padding: 0;}
+html{width: 100%;font-size: 24px;}
+html{font-family:"Hiragino Sans GB W3", "微软雅黑",sans-serif;}
+body{
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #29bde0
+}
+/************clearfix**************/
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    zoom: 1;
+}
+/*****************media*************/
+/*@media screen and (max-width: 480px){*/
+    /*@viewport {*/
+        /*zoom: 0.5;*/
+    /*}*/
+/*}*/
+/*********通用样式********/
+a:link{text-decoration:none;}
+button{font-family: "Hiragino Sans GB W3", "微软雅黑", sans-serif}
