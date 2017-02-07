@@ -1,0 +1,46 @@
+@import "../base/base.less";
+.m-slideshow-box{
+  .w-1920;
+  overflow: hidden;
+}
+.m-slideshow-img-box{
+  width: 400%;
+  height: auto;
+  animation-name: slideshow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.m-slideshow-img-box {
+  animation-name: slideshow;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /**webkit**/
+  -webkit-animation-name: slideshow;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+}
+@keyframes slideshow{
+  0%, 20%{margin-left: 0;}/*停留2s，过度1s*/
+  30%, 50%{margin-left: -100%;}
+  60%, 80%{margin-left: -200%;}
+  90%, 100%{margin-left: -300%;}
+}@-webkit-keyframes slideshow{
+   0%, 20%{margin-left: 0;}
+   30%, 50%{margin-left: -100%;}
+   60%, 80%{margin-left: -200%;}
+   90%, 100%{margin-left: -300%;}
+ }
+.m-slideshow-img{
+  float: left;
+  max-width: 25%;
+  height: auto;
+}
+
+
+
+
+
+

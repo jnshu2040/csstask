@@ -1,0 +1,76 @@
+.w-1200 {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.w-1920 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 320px;
+}
+/************clearfix**************/
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+/******reset*******/
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  max-width: 1920px;
+}
+html {
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+}
+body {
+  background-color: #fafafa;
+}
+/****/
+/**********base-over***********/
+header {
+  width: 100%;
+  line-height: 39px;
+  color: #29b078;
+  background: #fff;
+}
+.h-share-group {
+  float: right;
+  padding-top: 6px;
+  text-align: right;
+}
+.h-share-weixin,
+.h-share-qq,
+.h-share-weibo {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+.h-share-weixin {
+  background: url(../pic/sprite.png) 0 0;
+}
+.h-share-weixin:hover {
+  background-position: 0 -30px;
+}
+.h-share-qq {
+  background: url(../pic/sprite.png) -30px 0;
+}
+.h-share-qq:hover {
+  background-position: -30px -30px;
+}
+.h-share-weibo {
+  background: url(../pic/sprite.png) -60px 0;
+}
+.h-share-weibo:hover {
+  background-position: -60px -30px;
+}

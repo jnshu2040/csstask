@@ -1,0 +1,49 @@
+@import "../base/base.less";
+//引入bass
+.nav-box{
+  .w-1920;
+  height: 100px;
+  background-color: @h-color;
+}
+.nav-logo-box{
+  position: relative;
+  top: 25px;
+  float: left;
+  height: 50px;
+  width: 110px;
+  background: url(../pic/sprite.png) -310px 0;
+}
+.nav-menu-box{
+  float: right;
+  text-align: right;
+  font-weight: bold;
+  color: #fff;
+  //margin-right: -80px;
+}
+.nav-menu-item{
+  display: inline-block;
+  line-height: 97px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 3px solid @h-color;
+}
+.nav-menu-item-about{padding-right: 0;}
+.nav-menu-item:hover{
+  border-bottom: 3px solid #fff;
+}
+@media screen and(max-width:640px){
+  .nav-box{height: auto;}
+  .nav-logo-box{display: none;}
+  .nav-menu-box{
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu-item{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    line-height: 30px;
+  }
+  .nav-menu-item-about{padding-right: 0;}
+}

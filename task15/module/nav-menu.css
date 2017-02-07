@@ -1,0 +1,95 @@
+.w-1200 {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.w-1920 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 320px;
+}
+/************clearfix**************/
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+/******reset*******/
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  max-width: 1920px;
+}
+html {
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+}
+body {
+  background-color: #fafafa;
+}
+/****/
+.nav-box {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 320px;
+  height: 100px;
+  background-color: #29b078;
+}
+.nav-logo-box {
+  position: relative;
+  top: 25px;
+  float: left;
+  height: 50px;
+  width: 110px;
+  background: url(../pic/sprite.png) -310px 0;
+}
+.nav-menu-box {
+  float: right;
+  text-align: right;
+  font-weight: bold;
+  color: #fff;
+}
+.nav-menu-item {
+  display: inline-block;
+  line-height: 97px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 3px solid #29b078;
+}
+.nav-menu-item-about {
+  padding-right: 0;
+}
+.nav-menu-item:hover {
+  border-bottom: 3px solid #fff;
+}
+@media screen and (max-width: 640px) {
+  .nav-box {
+    height: auto;
+  }
+  .nav-logo-box {
+    display: none;
+  }
+  .nav-menu-box {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu-item {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    line-height: 30px;
+  }
+  .nav-menu-item-about {
+    padding-right: 0;
+  }
+}
