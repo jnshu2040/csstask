@@ -78,3 +78,25 @@ body {
     width: 100%;
   }
 }
+/*********base*******/
+.m-link-group-box {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  background: #fff;
+}
+.m-link-h5 {
+  line-height: 50px;
+  text-align: center;
+}
+.m-link-li-box {
+  position: relative;
+  left: 20px;
+  float: left;
+  width: 10%;
+  min-width: 90px;
+  line-height: 28px;
+  color: #bdbdbd;
+}

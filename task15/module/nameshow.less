@@ -1,41 +1,70 @@
 @import "../base/base.less";
 /*************base***************/
-.m-show-group-box{
+.m-nameshow-group-box{
   .w-1200;
+  overflow: hidden;
+  padding-bottom: 100px;
 }
-.m--show-slideshow{
-  width: 200%;
+.m-nameshow-h5{
+  text-align: center;
+  line-height: 140px;
+}
+.m-nameshow-slideshow{
+  width: 2460px;
   height: auto;
 }
-
-.show-box{
-  width:270px;
-  height:370px;
-  background-color: #fff;
-  padding:16px 32px 32px 32px;
-  border:2px solid #eee;
-  margin: 16px auto;
+/***********轮播**************/
+.m-nameshow-slideshow {
+  animation-name: nameshow-slideshow;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /**webkit**/
+  -webkit-animation-name: nameshow-slideshow;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
 }
-.touxiang-box{
+
+@keyframes nameshow-slideshow{
+  0%, 10%{margin-left: 0;}/*停留1s，过度1.25s*/
+  22.5%, 32.5%{margin-left: -300px;}
+  45%, 55%{margin-left: -600px;}
+  67.5%, 77.5%{margin-left: -900px;}
+  90%, 100%{margin-left: -1200px;}
+}
+@-webkit-keyframes nameshow-slideshow{
+   0%, 10%{margin-left: 0;}/*停留2s，过度1s*/
+   22.5%, 32.5%{margin-left: -300px;}
+   45%, 55%{margin-left: -600px;}
+   67.5%, 77.5%{margin-left: -900px;}
+   90%, 100%{margin-left: -1200px;}
+ }
+.m-nameshow-box{
+  float: left;
+  width: 196px;
+  height: 320px;
+  background-color: #fff;
+  padding: 20px 30px 30px 30px;
+  border: 2px solid #eee;
+  margin-right: 40px;
+}
+.m-nameshow-touxiang-box{
   border-radius:50%;
   width:108px;
   height:108px;
   margin:0 auto;
+  background: url(../pic/sprite.png) 0 -70px ;
 }
-.touxiang-box img{
-  height:108px;
-  width:108px;
-}
-.show-name{
+.m-nameshow-name{
   text-align: center;
-  font-weight: bold;
-  font-size:18px;
   margin-top:40px;
 }
-.show-text{
-  color: gray;
+.m-nameshow-text{
+  color: @p-color-1;
   margin-top: 18px;
   line-height: 26px;
+  text-align: justify;
 }
 
 

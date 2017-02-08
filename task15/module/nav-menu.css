@@ -9,6 +9,12 @@
   max-width: 1920px;
   min-width: 320px;
 }
+.dp-none {
+  display: none;
+}
+h5 {
+  font-size: 16px;
+}
 /************clearfix**************/
 .clearfix:after {
   content: " ";
@@ -18,6 +24,12 @@
 }
 .clearfix {
   zoom: 1;
+}
+/****flex***/
+.flex-item-center {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
 }
 /******reset*******/
 * {
@@ -37,6 +49,35 @@ body {
   background-color: #fafafa;
 }
 /****/
+/*********栅格***************/
+.col-4-1 {
+  float: left;
+  width: 25%;
+}
+@media screen and (max-width: 900px) {
+  .col-4-1 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .col-4-1 {
+    width: 100%;
+  }
+}
+/**/
+.col-step-4-1 {
+  float: left;
+}
+@media screen and (max-width: 1196px) {
+  .col-w-4-1 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1196px) {
+  .col-w-4-1 {
+    width: 100%;
+  }
+}
 .nav-box {
   width: 100%;
   max-width: 1920px;
@@ -50,7 +91,7 @@ body {
   float: left;
   height: 50px;
   width: 110px;
-  background: url(../pic/sprite.png) -310px 0;
+  background: url(../pic/sprite.png) -330px 0;
 }
 .nav-menu-box {
   float: right;
