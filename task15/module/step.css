@@ -1,0 +1,159 @@
+.w-1200 {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.w-1920 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 320px;
+}
+.dp-none {
+  display: none;
+}
+/************clearfix**************/
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+/****flex***/
+.flex-item-center {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+}
+/******reset*******/
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  max-width: 1920px;
+}
+html {
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+}
+body {
+  background-color: #fafafa;
+}
+/****/
+/*********栅格***************/
+.col-4-1 {
+  float: left;
+  width: 25%;
+}
+@media screen and (max-width: 900px) {
+  .col-4-1 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .col-4-1 {
+    width: 100%;
+  }
+}
+/**/
+.col-step-4-1 {
+  float: left;
+}
+@media screen and (max-width: 1196px) {
+  .col-w-4-1 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1196px) {
+  .col-w-4-1 {
+    width: 100%;
+  }
+}
+/************base*****************/
+.m-step-group-box {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.m-step-h5 {
+  text-align: center;
+}
+.m-step-card {
+  width: 305px;
+  margin: 50px auto;
+}
+.m-step-card-1 {
+  width: 260px;
+}
+.m-step-card-arrow {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  background: url(../pic/sprite.png) -280px -20px;
+  margin-right: 20px;
+}
+.m-step-card-1-arrow {
+  width: 0;
+  margin: 0;
+}
+.m-step-card-number {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 66px;
+  color: #29b078;
+  font-size: 18px;
+  background-color: #fff;
+  border: 2px solid #eee;
+}
+.m-step-card-p-box {
+  display: inline-block;
+  vertical-align: middle;
+  width: 170px;
+  line-height: 26px;
+  color: #bdbdbd;
+}
+.col-step-4-1 {
+  float: left;
+}
+@media screen and (max-width: 1196px) {
+  .col-step-4-1 {
+    width: 50%;
+  }
+  .m-step-card {
+    margin: 25px auto;
+  }
+  .m-step-card-1 {
+    width: 305px;
+  }
+  .m-step-card-1-arrow {
+    width: 30px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .col-step-4-1 {
+    width: 100%;
+  }
+  .m-step-card {
+    margin: 25px auto;
+  }
+  .m-step-card-1 {
+    width: 305px;
+  }
+  .m-step-card-1-arrow {
+    width: 30px;
+    margin-right: 20px;
+  }
+}

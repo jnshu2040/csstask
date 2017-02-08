@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="module/nav-menu.css">
     <link rel="stylesheet" href="module/slideshow.css">
     <link rel="stylesheet" href="module/feature.css">
+    <link rel="stylesheet" href="module/step.css">
 </head>
 <body>
 <header>
@@ -23,61 +24,58 @@
     </div>
 </header>
 <main>
-<div class="nav-box clearfix"><!--nav-menu---->
-    <div class="w-1200">
-        <div class="nav-logo-box"></div>
-        <div class="nav-menu-box"><!--width>480px-->
-            <a href="#"><span class="nav-menu-item">首页</span></a>
-            <a href="#"><span class="nav-menu-item">职业</span></a>
-            <a href="#"><span class="nav-menu-item">推荐</span></a>
-            <a href="#"><span class="nav-menu-item nav-menu-item-about">关于</span></a>
-        </div>
-        <!--<div class="nav-dorpdown-box">&lt;!&ndash;width<480px&ndash;&gt;-->
-            <!--<button class="nav-dropdown-btn">菜单</button>-->
-            <!--<ul>-->
-                <!--<a href="#"><li class="nav-dropdown-item">首页</li></a>-->
-                <!--<a href="#"><li class="nav-dropdown-item"></li></a>-->
-                <!--<a href="#"><li class="nav-dropdown-item"></li></a>-->
-                <!--<a href="#"><li class="nav-dropdown-item"></li></a>-->
-            <!--</ul>-->
-        <!--</div>-->
+    <div class="nav-box clearfix"><!--nav-menu---->
+        <div class="w-1200">
+            <div class="nav-logo-box"></div>
+            <div class="nav-menu-box"><!--width>480px-->
+                <a href="#"><span class="nav-menu-item">首页</span></a>
+                <a href="#"><span class="nav-menu-item">职业</span></a>
+                <a href="#"><span class="nav-menu-item">推荐</span></a>
+                    <a href="#"><span class="nav-menu-item nav-menu-item-about">关于</span></a>
+            </div>
+            <!--<div class="nav-dorpdown-box">&lt;!&ndash;width<480px&ndash;&gt;-->
+                <!--<button class="nav-dropdown-btn">菜单</button>-->
+                <!--<ul>-->
+                    <!--<a href="#"><li class="nav-dropdown-item">首页</li></a>-->
+                    <!--<a href="#"><li class="nav-dropdown-item"></li></a>-->
+                    <!--<a href="#"><li class="nav-dropdown-item"></li></a>-->
+                    <!--<a href="#"><li class="nav-dropdown-item"></li></a>-->
+                <!--</ul>-->
+            <!--</div>-->
 
+        </div>
     </div>
-</div>
-<div class="m-slideshow-box clearfix"><!--轮播图-->
-    <div class="m-slideshow-img-box">
-    <img class="m-slideshow-img" src="pic/banner1.png">
-    <img class="m-slideshow-img" src="pic/banner2.png">
-    <img class="m-slideshow-img" src="pic/banner3.png">
-    <img class="m-slideshow-img" src="pic/banner4.png">
+    <div class="m-slideshow-box clearfix"><!--轮播图-->
+        <div class="m-slideshow-img-box">
+        <img class="m-slideshow-img" src="pic/banner1.png">
+            <img class="m-slideshow-img" src="pic/banner2.png">
+        <img class="m-slideshow-img" src="pic/banner3.png">
+        <img class="m-slideshow-img" src="pic/banner4.png">
+        </div>
     </div>
-</div>
-<div class="m-feature-group-box"><!--特点介绍-->
-    <div class="m-feature-col-2">
-        <div class="m-feature-col-1">
+    <div class="m-feature-group-box clearfix"><!--特点介绍-->
+        <div class="col-4-1 clearfix">
             <div class="m-feature-card"><!--卡片-->
                 <div class="m-feature-img m-feature-img-bg1"></div>
                 <h3 class="m-feature-h3">高效</h3>
                 <p class="m-feature-p">将五到七年的成长时间，缩短到一到三年。</p>
             </div>
         </div>
-        <div class="m-feature-col-1">
+        <div class="col-4-1 clearfix">
             <div class="m-feature-card"><!--卡片-->
                 <div class="m-feature-img m-feature-img-bg2"></div>
                 <h3 class="m-feature-h3">规范</h3>
                 <p class="m-feature-p">标准的实战教程，不会走弯路。</p>
             </div>
         </div>
-    </div>
-    <div class="m-feature-col-2">
-        <div class="m-feature-col-1">
+        <div class="col-4-1 clearfix">
             <div class="m-feature-card"><!--卡片-->
                 <div class="m-feature-img m-feature-img-bg3"></div>
                 <h3 class="m-feature-h3">人脉</h3>
                 <p class="m-feature-p">同班好友，同学院长，技术大师，入学就混入职脉圈，为以后铺平道路。</p>
             </div>
         </div>
-        <div class="m-feature-col-1">
+        <div class="col-4-1 clearfix">
             <div class="m-feature-card m-feature-count"><!--卡片-->
                 <div class="m-feature-count-detail">
                     <span class="m-feature-count-detail-icon"></span>
@@ -92,10 +90,96 @@
             </div>
         </div>
     </div>
-</div>
+    <div class="m-step-group-box clearfix"><!--步骤-->
+        <h5 class="m-step-h5">如何学习</h5>
+        <div class="col-step-4-1"><!--额外的类似栅格-->
+            <div class="m-step-card m-step-card-1"><!--步骤的卡片-->
+                <div class="m-step-card-arrow m-step-card-1-arrow"></div>
+                <div class="m-step-card-number">1</div>
+                <div class="m-step-card-p-box">
+                    <span>匹配你现在的个人情况寻找适合自己的岗位</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-step-4-1"><!--额外的类似栅格-->
+            <div class="m-step-card"><!--步骤的卡片-->
+                <div class="m-step-card-arrow"></div>
+                <div class="m-step-card-number">2</div>
+                <div class="m-step-card-p-box">
+                    <span>了解职业前景薪金待遇、竞争压力等</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-step-4-1"><!--额外的类似栅格-->
+            <div class="m-step-card"><!--步骤的卡片-->
+                <div class="m-step-card-arrow"></div>
+                <div class="m-step-card-number">3</div>
+                <div class="m-step-card-p-box">
+                    <span>掌握行业内顶级技能</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-step-4-1"><!--额外的类似栅格-->
+            <div class="m-step-card"><!--步骤的卡片-->
+                <div class="m-step-card-arrow"></div>
+                <div class="m-step-card-number">4</div>
+                <div class="m-step-card-p-box">
+                    <span>查看职业目标任务</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-step-4-1"><!--额外的类似栅格-->
+            <div class="m-step-card m-step-card-1"><!--步骤的卡片-->
+                <div class="m-step-card-arrow m-step-card-1-arrow"></div>
+                <div class="m-step-card-number">5</div>
+                <div class="m-step-card-p-box">
+                    <span>参考学习资源，掌握技能点，逐个完成任务</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-step-4-1"><!--额外的类似栅格-->
+            <div class="m-step-card"><!--步骤的卡片-->
+                <div class="m-step-card-arrow"></div>
+                <div class="m-step-card-number">6</div>
+                <div class="m-step-card-p-box">
+                    <span>加入班级，和小伙伴们互帮互助，一块学习</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-step-4-1"><!--额外的类似栅格-->
+            <div class="m-step-card"><!--步骤的卡片-->
+                <div class="m-step-card-arrow"></div>
+                <div class="m-step-card-number">7</div>
+                <div class="m-step-card-p-box">
+                    <span>选择导师，一路引导，加速自己成长</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-step-4-1"><!--额外的类似栅格-->
+            <div class="m-step-card"><!--步骤的卡片-->
+                <div class="m-step-card-arrow"></div>
+                <div class="m-step-card-number">8</div>
+                <div class="m-step-card-p-box">
+                    <span>完成职业技能，升级业界大牛</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--学员展示-->
+    <div class="m-show-group-box">
+        <div class="m-show-slideshow clearfix">
+            <div class="show-box">
+                <div class="touxiang-box">
+                    <img src="pic/luodayou.png">
+                </div>
+                <p class="show-name">技术顾问：罗大佑</p>
+                <p class="show-text">百度技术总监：互联网基础 服务领域，从事虚拟主机、 云服务器、域名。曾任新网 高级技术经理，负责技术研 发、团队管理与建设。</p>
+            </div>
+
+        </div>
 
 
-
+    </div>
 </main>
 </body>
 </html>
