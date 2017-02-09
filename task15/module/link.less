@@ -10,15 +10,19 @@
   text-align: center;
 }
 .m-link-li-box{
-  position:relative;
-  left: 20px;
   float: left;
   width: 10%;
   min-width: 90px;
+  overflow: hidden;
   line-height: 28px;
   color: @p-color-1;
 }
-
+.m-link-li-box li{
+  position: relative;
+  left: 20px;
+  border-bottom: 1px solid #fff;
+}
+.m-link-li-box li:hover{border-bottom: 1px solid @h-color; }
 
 
 

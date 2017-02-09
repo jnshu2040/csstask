@@ -111,3 +111,12 @@ tr {
   -webkit-border-vertical-spacing: 0;
   -webkit-border-horizontal-spacing: 0;
 }
+/***************base****************/
+.m-subnav-p {
+  line-height: 80px;
+  vertical-align: middle;
+  border-bottom: 1px solid #bbb;
+}
+.m-subnav-p-span {
+  color: #29b078;
+}

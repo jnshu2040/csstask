@@ -1,13 +1,13 @@
 .w-1200 {
   width: 100%;
   max-width: 1200px;
-  min-width: 320px;
+  min-width: 300px;
   margin: 0 auto;
 }
 .w-1920 {
   width: 100%;
   max-width: 1920px;
-  min-width: 320px;
+  min-width: 300px;
 }
 .dp-none {
   display: none;
@@ -24,6 +24,9 @@ h5 {
 }
 .clearfix {
   zoom: 1;
+}
+a:hover {
+  text-decoration: underline;
 }
 /****flex***/
 .flex-item-center {
@@ -54,13 +57,23 @@ body {
   float: left;
   width: 25%;
 }
-@media screen and (max-width: 900px) {
+.col-3-1 {
+  float: left;
+  width: 33%;
+}
+@media screen and (max-width: 980px) {
   .col-4-1 {
+    width: 50%;
+  }
+  .col-3-1 {
     width: 50%;
   }
 }
 @media screen and (max-width: 480px) {
   .col-4-1 {
+    width: 100%;
+  }
+  .col-3-1 {
     width: 100%;
   }
 }
@@ -78,4 +91,87 @@ body {
     width: 100%;
   }
 }
+/*********五角星图标**********/
+.star {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url(../pic/sprite.png) -160px -250px;
+  vertical-align: -10%;
+}
+.red {
+  color: red;
+}
+.float-right {
+  float: right;
+}
+/****col-3-1**************/
+td,
+tr {
+  -webkit-border-vertical-spacing: 0;
+  -webkit-border-horizontal-spacing: 0;
+}
 /***********base*****************/
+footer {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 300px;
+  color: #fff;
+  background: #29b078;
+  padding-top: 30px;
+}
+.f-about-message {
+  width: 100%;
+  padding: 15px 0;
+}
+.f-about-message-h5 {
+  line-height: 40px;
+}
+.f-about-message-p {
+  margin-top: 60px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+@media screen and (max-width: 480px) {
+  .f-about-message-p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+.f-about-message-p-span {
+  font-size: 16px;
+}
+.f-about-own-h5 {
+  line-height: 40px;
+}
+.f-about-own-item {
+  display: inline-block;
+  width: 45%;
+  line-height: 46px;
+}
+.f-about-qrcode-box {
+  text-align: right;
+}
+@media screen and (max-width: 900px) {
+  .f-about-qrcode-box {
+    float: none;
+    text-align: left;
+  }
+}
+.f-about-qrcode-h5 {
+  line-height: 40px;
+  margin-right: 16px;
+}
+.f-about-qrcode {
+  display: inline-block;
+  margin-right: 16px;
+  width: 90px;
+  height: 90px;
+  background: url(../pic/sprite.png) -120px -70px;
+}
+/********************版权***************/
+.f-about-copyright {
+  text-align: center;
+  line-height: 30px;
+  border-top: 1px solid #32c086 ;
+}

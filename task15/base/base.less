@@ -1,8 +1,8 @@
 @b-color: #fafafa;//背景色
 @h-color: #29b078;//主体色
-@p-color-1: #bdbdbd;//文字颜色
-.w-1200{width: 100%; max-width: 1200px; min-width: 320px; margin: 0 auto;}
-.w-1920{width: 100%; max-width: 1920px; min-width: 320px;}
+@p-color-1: #bbb;//文字颜色
+.w-1200{width: 100%; max-width: 1200px; min-width: 300px; margin: 0 auto;}
+.w-1920{width: 100%; max-width: 1920px; min-width: 300px;}
 .dp-none {display: none;}
 h5{font-size: 16px;}
   /************clearfix**************/
@@ -15,6 +15,8 @@ h5{font-size: 16px;}
 .clearfix {
   zoom: 1;
 }
+
+a:hover{text-decoration: underline;}
 /****flex***/
 .flex-item-center{
   display: flex;
@@ -33,11 +35,17 @@ body{background-color: @b-color}
   float: left;
   width: 25%;
 }
-@media screen and(max-width: 900px) {
+.col-3-1{
+  float: left;
+  width: 33%;
+}
+@media screen and(max-width: 980px) {
   .col-4-1{ width: 50%;}
+  .col-3-1{width: 50%;}
 }
 @media screen and(max-width: 480px) {
   .col-4-1{ width: 100%;}
+  .col-3-1{width: 100%;}
 }
 /**/
 .col-step-4-1{float: left;}
@@ -47,13 +55,22 @@ body{background-color: @b-color}
 @media screen and(max-width: 1196px) {
   .col-w-4-1{ width: 100%;}
 }
+/*********五角星图标**********/
+.star{
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url(../pic/sprite.png) -160px -250px;
+  vertical-align:-10%;
+}
+.red{color: red}
+.float-right{float: right;}
 
-
-
-
-
-
-
+/****col-3-1**************/
+td, tr{
+-webkit-border-vertical-spacing: 0;
+-webkit-border-horizontal-spacing: 0;
+}
 
 
 

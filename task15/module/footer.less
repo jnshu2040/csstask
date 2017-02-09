@@ -1,2 +1,50 @@
 @import "../base/base.less";
 /***********base*****************/
+footer{
+  .w-1920;
+  color: #fff;
+  background: @h-color;
+  padding-top: 30px;
+}
+.f-about-message{
+  width: 100%;
+  padding: 15px 0;
+}
+.f-about-message-h5{line-height: 40px;}
+.f-about-message-p{
+  margin-top: 60px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+@media screen and(max-width: 480px){
+  .f-about-message-p{margin-top: 10px; margin-bottom: 30px;}
+}
+.f-about-message-p-span{font-size: 16px; }
+.f-about-own-h5{.f-about-message-h5}
+.f-about-own-item{
+  display: inline-block;
+  width: 45%;
+  line-height: 46px;
+}
+.f-about-qrcode-box{  text-align: right;  }
+@media screen and(max-width: 900px) { .f-about-qrcode-box{float: none; text-align: left;} }
+.f-about-qrcode-h5{
+  .f-about-message-h5;
+  margin-right: 16px;
+}
+.f-about-qrcode{
+  display: inline-block;
+  margin-right: 16px;
+  width: 90px;
+  height: 90px;
+  background: url(../pic/sprite.png) -120px -70px ;
+}
+/********************版权***************/
+.f-about-copyright{
+  text-align: center;
+  line-height: 30px;
+  border-top: 1px solid #32c086 ;
+}
+
+
+

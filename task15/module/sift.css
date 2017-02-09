@@ -111,3 +111,24 @@ tr {
   -webkit-border-vertical-spacing: 0;
   -webkit-border-horizontal-spacing: 0;
 }
+/***************base*******************/
+#m-sift {
+  margin: 10px auto;
+  line-height: 20px;
+}
+.m-sift-head {
+  color: #bbb;
+}
+.m-sift-item {
+  display: inline-block;
+  margin: 10px;
+  width: 64px;
+}
+.m-sift-all {
+  color: #fff;
+  background: #29b078;
+}
+.m-sift-item:hover {
+  background: #29b078;
+  color: #fff;
+}
