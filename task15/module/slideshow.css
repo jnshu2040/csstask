@@ -1,3 +1,6 @@
+.color-black {
+  color: black;
+}
 .w-1200 {
   width: 100%;
   max-width: 1200px;
@@ -8,6 +11,21 @@
   width: 100%;
   max-width: 1920px;
   min-width: 300px;
+}
+.w-100-100 {
+  width: 100%;
+}
+.w-50-100 {
+  width: 49.5%;
+}
+.w-40-100 {
+  width: 39%;
+}
+.w-60-100 {
+  width: 60%;
+}
+.bd-right-1 {
+  border-right: 1px solid #bbb;
 }
 .dp-none {
   display: none;
@@ -24,6 +42,9 @@ h5 {
 }
 .clearfix {
   zoom: 1;
+}
+.position-relative {
+  position: relative;
 }
 a:hover {
   text-decoration: underline;
@@ -52,12 +73,31 @@ body {
   background-color: #fafafa;
 }
 /****/
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #fff;
+}
+a:visited {
+  color: #000;
+}
 /*********栅格***************/
 .col-4-1 {
   float: left;
   width: 25%;
 }
+.col-4-1-md {
+  float: left;
+  width: 25%;
+}
+.col-4-3 {
+  float: left;
+  width: 75%;
+}
 .col-3-1 {
+  position: relative;
   float: left;
   width: 33%;
 }
@@ -67,6 +107,17 @@ body {
   }
   .col-3-1 {
     width: 50%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .col-3-1 {
+    width: 100%;
+  }
+  .col-4-1-md {
+    width: 100%;
+  }
+  .col-4-3 {
+    width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -110,6 +161,11 @@ td,
 tr {
   -webkit-border-vertical-spacing: 0;
   -webkit-border-horizontal-spacing: 0;
+}
+table {
+  table-layout: fixed;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 .m-slideshow-box {
   width: 100%;

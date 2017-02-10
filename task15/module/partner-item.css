@@ -167,54 +167,25 @@ table {
   word-break: break-all;
   word-wrap: break-word;
 }
-/*************base**************/
-.m-partner-group {
-  width: 100%;
-  max-width: 1200px;
-  min-width: 300px;
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 90px;
-}
-.m-parter-h5 {
-  text-align: center;
-  line-height: 140px;
-}
-.m-partner-card {
-  float: left;
-  height: 110px;
-  width: 20%;
-  min-width: 200px;
-  padding-top: 65px;
+/******************base***************/
+.m-partner-item-box {
+  width: 85%;
+  padding: 20px 5% 20px 5%;
+  margin-left: 5%;
+  color: #bbb;
+  text-align: justify;
   background: #fff;
 }
-.m-partner-card:hover {
-  box-shadow: inset 0 0 15px #bbb;
+.m-partner-item-header-logo {
+  float: left;
+  width: 92px;
+  height: 23px;
+  background: url(../pic/sprite.png) -240px -70px;
+  margin: 30px;
 }
-.m-partner-logo {
-  width: 100px;
-  height: 40px;
-  margin: 0 auto;
+.m-partner-item-header {
+  border-bottom: 1px solid #e6e6e6;
 }
-.m-partner-bg1 {
-  background: url(../pic/sprite.png) 0 -190px;
-}
-.m-partner-bg2 {
-  background: url(../pic/sprite.png) -100px -190px;
-}
-.m-partner-bg3 {
-  background: url(../pic/sprite.png) -200px -190px;
-}
-.m-partner-bg4 {
-  background: url(../pic/sprite.png) -300px -190px;
-}
-.m-partner-bg5 {
-  width: 180px;
-  background: url(../pic/sprite.png) -230px -150px;
-}
-@media screen and (max-width: 640px) {
-  .m-partner-card {
-    float: none;
-    margin: 0 auto;
-  }
+.m-partner-item-box p {
+  margin: 32px 0;
 }

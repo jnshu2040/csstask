@@ -29,9 +29,9 @@
         <div class="w-1200">
             <div class="nav-logo-box"></div>
             <div class="nav-menu-box"><!--width>480px-->
-                <a href="#"><span class="nav-menu-item">首页</span></a>
-                <a href="#"><span class="nav-menu-item">职业</span></a>
-                <a href="#"><span class="nav-menu-item">推荐</span></a>
+                <a href="home.html"><span class="nav-menu-item">首页</span></a>
+                <a href="zhiye.html"><span class="nav-menu-item">职业</span></a>
+                <a href="partner.html"><span class="nav-menu-item">推荐</span></a>
                 <a href="#"><span class="nav-menu-item nav-menu-item-about">关于</span></a>
             </div>
             <!--<div class="nav-dorpdown-box">&lt;!&ndash;width<480px&ndash;&gt;-->
@@ -48,57 +48,778 @@
     <div id="m-subnav" class="w-1200">
         <p class="m-subnav-p">首页&gt;<span class="m-subnav-p-span">职业</span></p>
     </div>
-    <div id="m-sift" class="w-1200"><!--筛选-->
+    <div id="m-sift" class="w-1200"><!--筛选/锚点-->
         <a id="m-sift-all"></a>
         <span class="m-sift-head">方向：</span>
         <a href="#m-sift-all"><div class="m-sift-item m-sift-all">全部</div></a>
         <a href="#m-sift-all"><div class="m-sift-item">前端开发</div></a>
-        <a href="#m-sift-all"><div class="m-sift-item">后端开发</div></a>
-        <a href="#m-sift-all"><div class="m-sift-item">移动开发</div></a>
-        <a href="#m-sift-all"><div class="m-sift-item">整站开发</div></a>
-        <a href="#m-sift-all"><div class="m-sift-item">运营维护</div></a>
+        <a href="#m-sift-java"><div class="m-sift-item">后端开发</div></a>
+        <a href="#m-sift-mobile"><div class="m-sift-item">移动开发</div></a>
+        <a href="#m-sift-global"><div class="m-sift-item">整站开发</div></a>
+        <a href="#m-sift-pm"><div class="m-sift-item">运营维护</div></a>
     </div>
     <div class="m-direct w-1200"><!--各个方向的总的盒子，模块-->
         <h3 class="m-direct-h3">前端开发方向</h3>
-        <div class="m-direct-card-group clearfix"><!--单个方向的盒子，包含卡片集合-->
+        <div class="m-direct-card-group clearfix"><!--单个职业方向的盒子，包含卡片集合-->
             <div class="col-3-1">
                 <div class="m-direct-card"><!--card-->
-                    <div class="m-direct-card-img"></div>
-                    <div class="m-direct-card-intro">
-                        <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
-                        <p class="m-direct-card-intro-p">
-                            web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+                <div class="m-direct-card-hover"><!--hover叠加层-->
+                    <div class="m-direct-card-hover-item-box">
+                        <p class="m-direct-card-hover-header">IOS工程师</p>
+                        <p class="m-direct-card-hover-p">
+                            iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属
+                            于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开
+                            发人才成了国内企业必争的资源。国内  iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限
+                            的iOS开发人才成了国内企业必争的资源。
                         </p>
                     </div>
-                    <table class="m-direct-card-table">
-                        <tr>
-                            <td colspan="5">门槛&nbsp;&nbsp;<div class="star"></div></td>
-                            <td colspan="5">难易程度&nbsp;&nbsp;<div class="star"></div></td>
-                        </tr>
-                        <tr>
-                            <td colspan="5">成长周期&nbsp;&nbsp;<span class="red">1-3</span>年</td>
-                            <td colspan="5">稀缺程度&nbsp;&nbsp;<span class="red">234</span>家公司需要</td>
-                        </tr>
-                        <tr>
-                            <td colspan="4" rowspan="3">薪资待遇</td>
-                            <td colspan="6">0-1年<div class="float-right">5k-10k/月</div></td>
-                        </tr>
-                        <tr>
-                            <td colspan="6">1-3年<div class="float-right">10k-20k/月</div></td>
-                        </tr>
-                        <tr>
-                            <td colspan="6">3-5年<div class="float-right">20k-50k/月</div></td>
-                        </tr>
-                        <tr><td colspan="10">有<span class="red">286</span>人在学</td></tr>
-                        <tr><td colspan="10">提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础</td></tr>
-                    </table>
-                </div><!--card结束-->
+                </div>
             </div>
 
 
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+                <div class="m-direct-card-hover"><!--hover叠加层-->
+                    <div class="m-direct-card-hover-item-box">
+                        <p class="m-direct-card-hover-header">IOS工程师</p>
+                        <p class="m-direct-card-hover-p">
+                            iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属
+                            于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开
+                            发人才成了国内企业必争的资源。国内  iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限
+                            的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </div>
+                </div>
 
+            </div>
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+                <div class="m-direct-card-hover"><!--hover叠加层-->
+                    <div class="m-direct-card-hover-item-box">
+                        <p class="m-direct-card-hover-header">IOS工程师</p>
+                        <p class="m-direct-card-hover-p">
+                            iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属
+                            于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开
+                            发人才成了国内企业必争的资源。国内  iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限
+                            的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div><a id="m-sift-java"></a>
+        <h3 class="m-direct-h3">后端开发方向</h3>
+        <div class="m-direct-card-group clearfix"><!--单个职业方向的盒子，包含卡片集合-->
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+                <div class="m-direct-card-hover"><!--hover叠加层-->
+                    <div class="m-direct-card-hover-item-box">
+                        <p class="m-direct-card-hover-header">IOS工程师</p>
+                        <p class="m-direct-card-hover-p">
+                            iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属
+                            于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开
+                            发人才成了国内企业必争的资源。国内  iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限
+                            的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+                <div class="m-direct-card-hover"><!--hover叠加层-->
+                    <div class="m-direct-card-hover-item-box">
+                        <p class="m-direct-card-hover-header">IOS工程师</p>
+                        <p class="m-direct-card-hover-p">
+                            iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属
+                            于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开
+                            发人才成了国内企业必争的资源。国内  iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限
+                            的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+            </div>
+        </div><a id="m-sift-mobile"></a>
+        <h3 class="m-direct-h3">移动开发方向</h3>
+        <div class="m-direct-card-group clearfix"><!--单个职业方向的盒子，包含卡片集合-->
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+            </div>
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+            </div>
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+            </div>
+        </div><a id="m-sift-global"></a>
+        <h3 class="m-direct-h3">整站开发方向</h3>
+        <div class="m-direct-card-group clearfix"><!--单个职业方向的盒子，包含卡片集合-->
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+            </div>
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+            </div>
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+            </div>
+        </div><a id="m-sift-pm"></a>
+        <h3 class="m-direct-h3">运营维护方向</h3>
+        <div class="m-direct-card-group clearfix"><!--单个职业方向的盒子，包含卡片集合-->
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+            </div>
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+            </div>
+            <div class="col-3-1">
+                <div class="m-direct-card"><!--card-->
+                    <div class="m-direct-card-header clearfix">
+                        <div class="m-direct-card-img "></div>
+                        <div class="m-direct-card-intro">
+                            <h5 class="m-direct-card-intro-h5">Web前端工程师</h5>
+                            <p class="m-direct-card-intro-p">
+                                web前端开发工程师，主要职责是利用（X）HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="m-direct-card-detail clearfix">
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            门槛&nbsp;&nbsp;<div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            难易程度&nbsp;&nbsp;<div class="star"></div><div class="star"></div>
+                        </div>
+                        <div class="m-direct-card-detail-item bd-right-1 w-50-100">
+                            成长周期&nbsp;&nbsp;<span class="red">1-3</span><span class="color-black">年</span>
+                        </div>
+                        <div class="m-direct-card-detail-item w-50-100">
+                            稀缺程度&nbsp;&nbsp;<span class="red">234</span><span class="color-black">家公司需要</span>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3 bd-right-1 w-40-100">
+                            薪资待遇
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            0-1年<div class="float-right">5k-10k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            1-3年<div class="float-right">10k-20k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item m-direct-card-detail-item-row3-1 w-60-100 color-black">
+                            3-5年<div class="float-right">20k-50k/月</div>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100 color-black">
+                            <h5>有<span class="red">286</span>人在学</h5>
+                        </div>
+                        <div class="m-direct-card-detail-item w-100-100">
+                            提示：在你学习之前你应该已经掌握xxxx、xxx、xx等语言基础
+                        </div>
+                    </div>
+                </div><!--card结束-->
+            </div>
         </div>
-        </div>
+
+
+
+
+
+
+
+
+
+
     </div>
 
 
