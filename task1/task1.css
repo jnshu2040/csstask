@@ -2,24 +2,101 @@
     margin:0;
     padding:0;
 }
-#box{
-    border:3px solid darkgray;
-    margin:15px auto;
-    padding:15px;
-    height: 390px;
-    width: 390px;
+html{width: 100%; background: #eee;}
+body{width: 100%;margin: 0 auto;}
+h2{text-align: center}
+.wrapper{
+    width: 88vw;
+    margin: 60px auto;
+    padding: 15px 1vw 15px 2vw;
+    /*border:2px solid darkgray;*/
+    /*transform: rotate(30deg);*/
 
 }
 .box1{
-    height: 120px;
-    width: 120px;
-    margin:5px;
-    float: left;
+    display:inline-block;
+    height: 25vw;
+    width: 25vw;
+    max-height: 320px;
+    max-width: 320px;
+    margin: 1vw;
     background-color:orange;
     border-radius: 5px;
     text-align: center;
+    vertical-align: middle;
 }
 .inline{
     display: inline;
     background-color: red;
 }
+
+/*****************************************/
+.wrapper{
+    /*background: #000;*/
+    animation-name: flash;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /**webkit**/
+    -webkit-animation-name: flash;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+
+}
+@keyframes flash{
+    0%,10%{
+        transform:rotatey(0deg);
+        -ms-transform:rotate(0deg); /* IE 9 */
+        -moz-transform:rotate(0deg); /* Firefox */
+        -webkit-transform:rotatey(0deg); /* Safari and Chrome */
+        -o-transform:rotate(0deg); /* Opera */
+
+    }
+    30%{
+        transform:rotatey(180deg);
+        -ms-transform:rotate(180deg); /* IE 9 */
+        -moz-transform:rotate(180deg); /* Firefox */
+        -webkit-transform:rotatey(180deg); /* Safari and Chrome */
+        -o-transform:rotate(180deg); /* Opera */
+    }
+    100%{
+        transform:rotate(360deg);
+        -ms-transform:rotate(360deg); /* IE 9 */
+        -moz-transform:rotate(360deg); /* Firefox */
+        -webkit-transform:rotate(360deg); /* Safari and Chrome */
+        -o-transform:rotate(360deg); /* Opera */
+
+    }
+
+}
+
+
+
+
+/********************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
