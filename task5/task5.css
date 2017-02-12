@@ -1,167 +1,193 @@
 *{margin:0;padding:0;}
-html{width:100%;font-size:62.5%;}
-html{
-      max-width:768px;
-    margin:0 auto;
-}
-body{width:100%;font-family:"Microsoft YaHei",hevetica arial sans-serif;font-size:1.5rem;}
 a{text-decoration:none;}
-/****header************************/
-.header0{
+li{list-style: none;}
+html{width:100%;    max-width: 720px;
+    font-size:30px;
+    font-family: "Hiragino Sans GB W3", "Microsoft YaHei UI Light", sans-serif;
+}
+body{
     width:100%;
-    height:4rem;
-    max-width:768px;
+    margin: 0 auto;
+    font-size:30px;
 }
-li{
-    list-style: none;
-}
-.header-box{
-    background-color:#4ab;
+/****header************************/
+header{
     position:fixed;
     top:0;
     width:100%;
-    max-width:768px;
-    height:4rem;
-}
-.header-table{
+    max-width: 720px;
+    height:64px;
+    line-height: 64px;
+    padding-top: 64px;
+    font-size: 36px ;
     text-align: center;
-    width:100%;
-    height:100%;
-    font-size: 2rem;
-    color: #ffffff;
-}
-.header-table a{
-    position: absolute;
-    left:3%;
     color: #fff;
-    line-height: 2rem;
-    font-size:3rem;
+    background-color: #5fc0cd;
 }
-/******************∏ˆ»ÀΩÈ…‹**********************/
+.header0{
+    width:100%;
+    height: 128px;
+}
+.h-back{
+    display: block;
+    float: left;
+    margin-left:3%;
+    font-size: 54px;
+}
+/******************‰ø°ÊÅØÂ±ïÁ§∫*********************/
 .info-box{
     display:flex;
-    align-items:center;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    align-items: center;
     background-image:url(pic/beijing.png);
     background-repeat:round;
     width:100%;
-    height:14rem;
+    height:320px;
 }
 .info-touxiang-box{
-    width:8rem;
-    height:8rem;
-    margin:0 1rem 0 2rem;
+    width: 170px;
+    height: 170px;
+    margin: 0 30px 0 30px;
 }
+
 .info-touxiang-box img{
-    width:7rem;
-    height:7rem;
+    width: 170px;
+    height: 170px;
 }
 .info-table{
     display:block;
     width:60%;
-    min-width:10rem;
-    height:5.5rem;/*(1.5+2)+2*(2/2)*/
+    min-width:200px;
+    height:140px;/**/
+    color: #fff;
+
 }
 .info-table img{
-    width:1.1rem;
-    height:1.4rem;
+    width: 11px;
+    height: 14px;
 }
 .td-name{
-    font-size:2rem;
+    font-size:36px;
 }
 .td-age{
-    font-size:1.5rem;
+    font-size:24px;
 }
-/***************************ººƒ‹ΩÈ…‹****/
+
+/***************ÂàóË°®************/
 
 .skill-list{
-    line-height: 4rem;
-    font-size:1.5rem;
+    line-height: 98px;
+    font-size: 30px;
 }
+
 .skill-list img{
-    height:1rem;
+
+    height:26px;
+
 }
 .li img{
-    height:1.3rem;
-    width:2rem;
+    height:30px;
+    width:20px;
     min-width:2px;
+
 }
+
 .line-l{
+
     width:100%;
+
     height:2px;
+
     background-color: gray;
+
 }
+
 .line-s{
+
     position:relative;
+
     left:5%;
+
     width:95%;
+
     background-color:gray;
+
     height:2px;
+
 }
+
 .row-1{
     display: inline-block;
-    margin:0 1rem 0 5%;
+    margin:0 10px 0 5%;
     vertical-align: top;
 }
+
 .row-1-l-grey{
-    width:0.2rem;
+    width:2px;
     min-width:2px;
 }
+
 .col-1{
+
     display: inline-block;
-    margin:0 1rem 0 5%;
+
+    margin:0 10px 0 5%;
+
     color: gray;
+
 }
+
 .col-1 img{
-    width:0.2rem;
+
+    width:2px;
+
     min-width:2px;
 }
 .price-red{
     color: red;
 }
+
 .self-introdunction-box{
     display:inline-block;
-    height:4rem;
-    width:16rem;
-    font-size:1rem;
-    line-height:1.5rem;
+    height:98px;
+    width:60%;
+    line-height: 48px;
+    font-size:24px;
     vertical-align:middle;
 }
 
+/**************È°µËÑöÊåâÈíÆ************************/
 
-/**************************************/
-
-.bottom{
-    width:100%;
-    height:4rem;
-    margin:0  auto;
-    position:fixed;
-    max-width:768px;
-    bottom:1rem;
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    max-width: 720px;
+    padding-bottom: 40px;
+    background-color: #fff;
 }
 .bottom0{
-    width:100%;
-    height:5rem;
+    width: 100%;
+    height: 128px;
 }
 .message{
-    width:40%;
-    height:100%;
-    margin-left:3%;
-    float:left;
-    border:2px solid #44aabb;
+    width: 40%;
+    float: left;
+    border: 2px solid #44aabb;
     color: #44aabb;
-    border-radius:5px;
+    border-radius: 5px;
     text-align: center;
-    line-height: 4rem;
+    line-height: 80px;
 }
+
 .callme{
     width:40%;
-    height:100%;
-    margin-right:3%;
     float:right;
     border:2px solid #44aabb;
     background-color: #44aabb;
-    color:#fff;
     border-radius:5px;
     text-align: center;
-    line-height: 4rem;
+    line-height: 80px;
 }
