@@ -1,0 +1,39 @@
+.header-box{
+    width:100%;
+    background-color: #fff;
+}
+
+.header-tel{
+    color:green;
+    line-height:40px;
+}
+.header-share-box{
+    text-align: right;
+}
+.header-share-box span{
+    display: inline-block;
+    height:24px;
+    width:24px;
+    margin-top:8px;
+}
+.header-share-box span a img{
+    height:24px;
+    width:24px;
+    opacity: 0;
+}
+.header-share-box span a img:hover{
+    opacity: 1;
+}
+.weixin-span{
+    background-image:url("pic/weixin.png");
+    background-repeat:round;
+}
+.qq-span{
+    background-image: url("pic/qq.png");
+    margin-right:19px;
+    margin-left:19px;
+}
+.weibo-span{
+    background-image: url("pic/weibo.png");
+    margin-right:3px;
+}

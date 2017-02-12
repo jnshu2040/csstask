@@ -1,0 +1,89 @@
+/****************????????**************************/
+.introduction-box{
+    border:1px solid #edf1f2;
+    background-color: #fff;
+    padding-top: 22px;
+    max-width:400px;
+    margin:16px auto;
+    float:left;
+}
+.webpng{
+    float:left;
+    margin-left:12px;
+    margin-bottom: 12px;
+    width:40%;
+}
+.webpng img{
+    max-width:100%;
+}
+.introduction-text{
+    padding-right:16px;
+    width:100%;
+    margin:0 8px;
+}
+.introduction-text h4{
+    line-height: 40px;
+    text-align: center;
+}
+.introduction-table-1{
+    line-height:40px;
+    width:100%;
+    color: gray;
+}
+.introduction-table-2{
+    line-height:35px;
+    width:100%;
+}
+.t-align-cenwid40{
+    text-align: center;
+    width:40%;
+    color: gray;
+}
+.t-align-ri{
+    display:inline-block;
+    float: right;
+}
+.black{
+    color: black;
+}
+.introduction-table-3{
+    line-height:40px;
+    width:100%;
+}
+.introduction-box table td{
+    border:1px solid #edf1f2;
+}
+.td-width-50{
+    width:50%;
+}
+.red{
+    color: red;
+}
+
+/****************??????*************/
+.pst-rtv{
+    position: relative;
+}
+.z-hover{
+    width:100%;
+    background-color: #888888;
+    position:absolute;
+    max-width:400px;
+    padding:64px 32px 60px 32px;
+    opacity:0;
+    margin: 16px 0 16px 0;
+    color: #fff;
+    height:95%;
+}
+.z-hover:hover{
+    opacity: 0.8;
+}
+.z-hover h3 {
+    text-align: center;
+    line-height: 64px;
+
+}
+.z-hover p{
+    line-height: 24px;
+    font-size:18px;
+}

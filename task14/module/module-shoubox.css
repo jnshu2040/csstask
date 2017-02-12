@@ -1,0 +1,29 @@
+.show-box{
+    width:270px;
+    height:370px;
+    background-color: #fff;
+    padding:16px 32px 32px 32px;
+    border:2px solid #eee;
+    margin: 16px auto;
+}
+.touxiang-box{
+    border-radius:50%;
+    width:108px;
+    height:108px;
+    margin:0 auto;
+}
+.touxiang-box img{
+    height:108px;
+    width:108px;
+}
+.show-name{
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+    margin-top:40px;
+}
+.show-text{
+    color: gray;
+    margin-top: 18px;
+    line-height: 26px;
+}

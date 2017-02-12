@@ -1,0 +1,23 @@
+.col-md-6{
+    background-color:#5cb85c;
+    border:2px solid #dd00ff;
+}
+.col-md-6 a{
+    position:absolute;
+    right:2px;
+    color:red;
+}
+.navbar-fixed-top{
+    width:100%;
+    text-align: right;
+    background-color:#428844;
+    height:5rem;
+
+}
+.box1{
+
+}
+.box0{
+    width:100%;
+    height:6rem;
+}

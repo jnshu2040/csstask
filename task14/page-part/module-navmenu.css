@@ -1,0 +1,43 @@
+/************************************/
+.menu-box{
+    width:100%;
+    background-color:#29b078;
+}
+.menu-1200-box{
+    width:1200px;
+    margin:0 auto;
+
+}
+.pttlogo{
+    height:60px;
+    width:160px;
+    margin-top:20px;
+}
+.navbar-toggle{
+    margin-top:33px;
+}
+.nav-box{
+    background-color:#29b078 ;
+}
+.navbar{
+    background-color:#29b078;
+    border-radius:0;
+    border:0;
+}
+.navbar-header{
+    height:97px;
+}
+.nav{
+    margin:24px 0;
+    float: right;
+}
+.nav li{
+    border-bottom: 3px solid #29b078;
+}
+.nav li:hover{
+    border-bottom: 3px solid #fff;
+}
+.nav span{
+    color: #fff;
+
+}

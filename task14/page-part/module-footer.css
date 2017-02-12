@@ -1,0 +1,27 @@
+.footer-box{
+    width:100%;
+    background-color: #26a26f;
+    padding-top:38px;
+    color: #fff;
+}
+.footer-1200-box{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+.footer-line-height{
+    line-height:70px;
+    width:100px;
+}
+.footer-bottom{
+    margin-bottom:30px;
+    width:100px;
+}
+.corp-box{
+    width:100%;
+    background-color: #26a26f;
+    text-align: center;
+    line-height:30px;
+    border-top:1px solid #32c086;
+    color: #fff;
+}

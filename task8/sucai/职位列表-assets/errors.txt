@@ -1,0 +1,2 @@
+[2017-01-15 15:13:28] layer "  Copyright © 2015技能树 www.jnshu.com  All Rights Reserved | 京ICP": Expected end of input but "A" found.
+[2017-01-15 15:13:28] layer "www.jnshu.com": Unsupported extension: com

@@ -2,9 +2,10 @@
   color: black;
 }
 .w-1200 {
-  width: 100%;
+  width: 96%;
   max-width: 1200px;
-  min-width: 300px;
+  padding: 0 2%;
+  min-width: 250px;
   margin: 0 auto;
 }
 .w-1920 {
@@ -169,9 +170,10 @@ table {
 }
 /***********base***********/
 .m-feature-group-box {
-  width: 100%;
+  width: 96%;
   max-width: 1200px;
-  min-width: 300px;
+  padding: 0 2%;
+  min-width: 250px;
   margin: 0 auto;
   margin-top: 100px;
 }
@@ -206,7 +208,7 @@ table {
 .m-feature-count {
   margin: 60px auto;
   padding-top: 30px;
-  border-left: 1px solid #bbb;
+  border-left: 1px dashed #bbb;
 }
 .m-feature-count-detail {
   margin: 30px auto;

@@ -2,9 +2,10 @@
   color: black;
 }
 .w-1200 {
-  width: 100%;
+  width: 96%;
   max-width: 1200px;
-  min-width: 300px;
+  padding: 0 2%;
+  min-width: 250px;
   margin: 0 auto;
 }
 .w-1920 {
@@ -169,9 +170,6 @@ table {
 }
 /***********base*****************/
 footer {
-  width: 100%;
-  max-width: 1920px;
-  min-width: 300px;
   color: #fff;
   background: #29b078;
   padding-top: 30px;
