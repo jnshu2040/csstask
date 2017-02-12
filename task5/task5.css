@@ -152,6 +152,7 @@ header{
     width:.02rem;
 
     min-width:.02rem;
+    margin-left: .20rem;
 }
 .price-red{
     color: red;
