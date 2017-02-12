@@ -6,10 +6,13 @@ html{width:100%;
     font-size:625%;
     font-family: "Hiragino Sans GB W3", "Microsoft YaHei UI Light", sans-serif;
 }
-@media screen and (max-width: 500px){html{font-size: 312.5%}}
+@media screen and (max-width: 500px){
+    html{font-size: 312.5%;}
+    body,header,footer{max-width: 14.4rem;}
+}
 body{
     width:100%;
-    /*max-width: 7.2rem;*/
+    max-width: 7.2rem;
     margin: 0 auto;
     font-size:0.3rem;
 }
@@ -18,7 +21,7 @@ header{
     position:fixed;
     top:0;
     width:100%;
-    /*max-width: 7.20rem;*/
+    max-width: 7.20rem;
     height:.64rem;
     line-height: .64rem;
     padding-top: .64rem;
@@ -34,8 +37,10 @@ header{
 }
 .h-back{
     display: block;
+    width:0;
+    position: relative;
+    left: .16rem;
     float: left;
-    margin-left:3%;
     font-size: .54rem;
 }
 /******************信息展示*********************/
@@ -167,7 +172,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    /*max-width: 7.20rem;*/
+    max-width: 7.20rem;
     background-color: #fff;
     height: 1.24rem;
 }
