@@ -1,74 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head lang="ch">
-    <meta charset="UTF-8"
-          content="width=device-width
-          initial-scale=1"/>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width initial-scale=0.5 minmum-scale=0.5 maxmum-scale=1.0 user-scalable=yes">
     <title>登录页</title>
     <link rel="stylesheet" type="text/css" href="task4.css"/>
 </head>
-
 <body>
-<div id="box">
     <div class="header0"></div>
     <div class="header">
-        <div class="h-back">
-            <table><tr><td style="text-align: left;">
-                <a href="http://qiyong.iok.la">返回</a></td></tr></table>
-        </div>
-        <div class="h-denglu">
-            <table><tr><td>登录</td></tr></table>
-        </div>
+        <div class="h-back">关闭</div>
+        <div class="h-login">登录</div>
+        <div class="h-register">注册</div>
     </div>
-
-    <div class="box1"></div>
-
     <form id="form1" action=""></form>
-    <div class="box-account">
-        <div class="iphone">
-            <table>
-                <tr>
-                    <td>
-                        <img src="pic/iphone.png">
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <input class="account"
-               form="form1" type="tel"
-               maxlength="11" name="account"
-               placeholder="请输入手机号"
-               autofocus
-                >
-    </div>
-    <div class="box-password">
-        <div class="lock">
-            <table>
-                <tr>
-                    <td>
-                        <img src="pic/lock.png">
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <input class="password"
-               form="form1" type="password"
-               name="password"
-               placeholder="请输入密码">
-    </div>
-    <div class="box2"></div>
-    <div class="denglu">
-        <input form="form1"
-               class="submit"
-               type="submit" value="登录">
-    </div>
-    <div>
-        <a href="#" style="position: absolute;left:1px;"> 立即注册</a>
-        <a href="#" style="position:absolute;right:1px;">忘记密码？</a>
-    </div>
-
-
-
-</div>
+    <input class="account" form="form1" type="tel"
+           maxlength="11" name="account"
+           placeholder="请输入手机号" autofocus>
+    <input class="password"
+           form="form1" type="password"
+           name="password"
+           placeholder="请输入密码">
+    <input class="submit" form="form1"
+           type="submit" value="登录">
+    <p class="lost-password-p"><a href="#">忘记密码？</a></p>
 </body>
 </html>
+
+
+
+

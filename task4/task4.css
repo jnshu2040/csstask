@@ -1,86 +1,63 @@
-body{background-color: #eff0f4}
-.anniu{background-color:#5fc0cd}
 *{margin:0;padding:0;}
-html,body{height:100%}
-#box{width:100%;
-    height:100%;
-    font-size:1.5rem;
+html{font-size: 24px;font-family: "Hiragino Sans GB W3", "微软雅黑", sans-serif}
+html,body{width: 100%;}
+body{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #eff0f4;
 }
-.header,.input,.submit{color: white;}
-.header{position:fixed;top:0;left:0;
-    background-color: #5fc0cd;
+/***********页眉***********/
+.header{
+    position:fixed;
+    top:0;
+    left:0;
     width:100%;
-    height:15%;/*header �ĸ߶�???*/
-        }
+    height:64px;/*header 的高度128*/
+    padding-top: 64px;
+    line-height: 64px;
+    font-size: 32px;
+    text-align: center;
+    background-color: #5fc0cd;
+}
 .header0{
     background-color: #5fc0cd;
     width:100%;
-    height:15%;/*header �ĸ߶�???*/
+    height:128px;/*header 的高度???*/
 }
-.h-back{width:20%;height:30%;position:relative;left:2%;top:50%;
-    float:left;font-size:2rem;
-         }
-.h-denglu{width:30%;height:30%;position:relative;left:0%;top:50%;
-    float:left;font-size:2rem;}
-.h-denglu img{max-width: 100%;max-height: 100%;}
-.h-zhuce{width:15%;float:right;}
-
-.box1{width:100%;height:2%;}
-
-.box-account{position:relative;top:-1px;
-    width:100%;
-    height:10%;
-}
-.iphone{
-    background-color: white;
-    width:10%;
-    height:100%;
-    float:left;}
-.iphone img{
-    width:auto;height:auto;max-width:100%;max-height:100%;}
-table{
-    width:100%;
-    height:100%;
-    text-align:center;
-}
-.account{
-    border:0;
-    width:90%;
-    height:100%;
-    float:right;
-    text-align: center;
-    font-size:2rem;
-}
-.box-password{width:100%;height:10%}
-.lock{
-    background-color: white;
-    width: 10%;
-    height:100%;
+.h-back{
     float:left;
 }
-.lock img{width:auto;height:auto;max-width:100%;max-height:100%;}
-.password{
-    border:0;
-    width:90%;
-    height:100%;
-    float:right;
-    text-align: center;
-    font-size:2rem;
+.h-login{
+    display: inline-block;
 }
-.box2{height:3%;width:100%;}
-.denglu{
-    background-color: #5fc0cd;
-    width:99%;
-    height:8%;
-    margin:0 auto;
-    border-radius:10%;
-    text-align:center;
+.h-register{
+    float: right;
 }
+/*********表单************/
+.account,.password{
+    width:80%;
+    padding: 16px 0 16px 20%;
+    margin-top: 16px;
+    font-size:1.5rem;
+    border: 0;
+    outline: none;
+}
+.account{background: #fff url(pic/iphone.png) 32px 11px no-repeat;}
+.password{background: #fff url(pic/lock.png) 32px 11px no-repeat;}
+/*********登录按钮*********/
 .submit{
+    width:100%;
+    margin-top: 64px;
+    line-height: 100px;
+    font-size:1.5rem;
+    font-family: "Hiragino Sans GB W3", "Microsoft YaHei UI", sans-serif;
+    color: #fff;
     background-color: #5fc0cd;
-    border-radius:5%;
-    width:100%;height:100%;
-    font-size:2rem;
-
-
+    outline: none;
 }
+.lost-password-p{text-align: right;}
+
+
+
