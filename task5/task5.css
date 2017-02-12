@@ -1,39 +1,42 @@
 *{margin:0;padding:0;}
+html{-webkit-text-size-adjust: none;}
 a{text-decoration:none;}
 li{list-style: none;}
 html{width:100%;
-    font-size:30px;
+    font-size:625%;
     font-family: "Hiragino Sans GB W3", "Microsoft YaHei UI Light", sans-serif;
 }
+@media screen and (max-width: 500px){html{font-size: 312.5%}}
 body{
     width:100%;
-    max-width: 720px;
+    /*max-width: 7.2rem;*/
     margin: 0 auto;
-    font-size:30px;
+    font-size:0.3rem;
 }
 /****header************************/
 header{
     position:fixed;
     top:0;
     width:100%;
-    max-width: 720px;
-    height:64px;
-    line-height: 64px;
-    padding-top: 64px;
-    font-size: 36px ;
+    /*max-width: 7.20rem;*/
+    height:.64rem;
+    line-height: .64rem;
+    padding-top: .64rem;
+    font-size: .34rem ;
     text-align: center;
     color: #fff;
     background-color: #5fc0cd;
+    z-index: 1;
 }
 .header0{
     width:100%;
-    height: 128px;
+    height: 1.28rem;
 }
 .h-back{
     display: block;
     float: left;
     margin-left:3%;
-    font-size: 54px;
+    font-size: .54rem;
 }
 /******************信息展示*********************/
 .info-box{
@@ -44,53 +47,53 @@ header{
     background-image:url(pic/beijing.png);
     background-repeat:round;
     width:100%;
-    height:320px;
+    height:3.20rem;
 }
 .info-touxiang-box{
-    width: 170px;
-    height: 170px;
-    margin: 0 30px 0 30px;
+    width: 1.70rem;
+    height: 1.70rem;
+    margin: 0 .30rem 0 .30rem;
 }
 
 .info-touxiang-box img{
-    width: 170px;
-    height: 170px;
+    width: 1.70rem;
+    height: 1.70rem;
 }
 .info-table{
     display:block;
     width:60%;
-    min-width:200px;
-    height:140px;/**/
+    min-width:2.00rem;
+    height:1.40rem;/**/
     color: #fff;
 
 }
 .info-table img{
-    width: 11px;
-    height: 14px;
+    width: .18rem;
+    height: .24rem;
 }
 .td-name{
-    font-size:36px;
+    font-size:.36rem;
 }
 .td-age{
-    font-size:24px;
+    font-size:.24rem;
 }
 
 /***************列表************/
 
 .skill-list{
-    line-height: 98px;
-    font-size: 30px;
+    line-height: .98rem;
+    font-size: .30rem;
 }
 
 .skill-list img{
 
-    height:26px;
+    height:.26rem;
 
 }
 .li img{
-    height:30px;
-    width:20px;
-    min-width:2px;
+    height:.30rem;
+    width:.20rem;
+    min-width:.02rem;
 
 }
 
@@ -98,9 +101,9 @@ header{
 
     width:100%;
 
-    height:2px;
+    height:.02rem;
 
-    background-color: gray;
+    background-color: #e1e5e7;
 
 }
 
@@ -112,28 +115,28 @@ header{
 
     width:95%;
 
-    background-color:gray;
+    background-color: #e1e5e7;
 
-    height:2px;
+    height:.02rem;
 
 }
 
 .row-1{
     display: inline-block;
-    margin:0 10px 0 5%;
+    margin:0 .10rem 0 5%;
     vertical-align: top;
 }
 
 .row-1-l-grey{
-    width:2px;
-    min-width:2px;
+    width:.02rem;
+    min-width:.02rem;
 }
 
 .col-1{
 
     display: inline-block;
 
-    margin:0 10px 0 5%;
+    margin:0 .10rem 0 5%;
 
     color: gray;
 
@@ -141,9 +144,9 @@ header{
 
 .col-1 img{
 
-    width:2px;
+    width:.02rem;
 
-    min-width:2px;
+    min-width:.02rem;
 }
 .price-red{
     color: red;
@@ -151,10 +154,10 @@ header{
 
 .self-introdunction-box{
     display:inline-block;
-    height:98px;
+    height:.98rem;
     width:60%;
-    line-height: 48px;
-    font-size:24px;
+    line-height: .48rem;
+    font-size:.24rem;
     vertical-align:middle;
 }
 
@@ -164,35 +167,35 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    max-width: 720px;
+    /*max-width: 7.20rem;*/
     background-color: #fff;
-    height: 124px;
+    height: 1.24rem;
 }
 .f-warpper{
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 40px;
+    padding-bottom: .40rem;
 }
 .bottom0{
     width: 100%;
-    height: 128px;
+    height: 1.28rem;
 }
 .message{
     width: 40%;
     float: left;
-    border: 2px solid #44aabb;
+    border: .02rem solid #44aabb;
     color: #44aabb;
-    border-radius: 5px;
+    border-radius: .05rem;
     text-align: center;
-    line-height: 80px;
+    line-height: .80rem;
 }
 
 .callme{
     width:40%;
     float:right;
-    border:2px solid #44aabb;
+    border:.02rem solid #44aabb;
     background-color: #44aabb;
-    border-radius:5px;
+    border-radius:.05rem;
     text-align: center;
-    line-height: 80px;
+    line-height: .80rem;
 }
