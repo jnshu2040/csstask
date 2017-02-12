@@ -1,12 +1,13 @@
 *{margin:0;padding:0;}
 a{text-decoration:none;}
 li{list-style: none;}
-html{width:100%;    max-width: 720px;
+html{width:100%;
     font-size:30px;
     font-family: "Hiragino Sans GB W3", "Microsoft YaHei UI Light", sans-serif;
 }
 body{
     width:100%;
+    max-width: 720px;
     margin: 0 auto;
     font-size:30px;
 }
@@ -159,14 +160,18 @@ header{
 
 /**************页脚按钮************************/
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
-    left: 5%;
-    width: 90%;
+    width: 100%;
     max-width: 720px;
-    padding-bottom: 40px;
     background-color: #fff;
+    height: 124px;
+}
+.f-warpper{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
 .bottom0{
     width: 100%;

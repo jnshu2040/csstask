@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb660b2d-7a57-4914-925b-aef302b087f5" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/csstask.iml" afterPath="$PROJECT_DIR$/.idea/csstask.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/base/base.css" afterPath="$PROJECT_DIR$/task15/base/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/base/base.less" afterPath="$PROJECT_DIR$/task15/base/base.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/home.html" afterPath="$PROJECT_DIR$/task15/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/direct.css" afterPath="$PROJECT_DIR$/task15/module/direct.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/feature.css" afterPath="$PROJECT_DIR$/task15/module/feature.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/feature.less" afterPath="$PROJECT_DIR$/task15/module/feature.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/footer.css" afterPath="$PROJECT_DIR$/task15/module/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/footer.less" afterPath="$PROJECT_DIR$/task15/module/footer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/header.css" afterPath="$PROJECT_DIR$/task15/module/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/link.css" afterPath="$PROJECT_DIR$/task15/module/link.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/nameshow.css" afterPath="$PROJECT_DIR$/task15/module/nameshow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/nav-menu.css" afterPath="$PROJECT_DIR$/task15/module/nav-menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/partner-item.css" afterPath="$PROJECT_DIR$/task15/module/partner-item.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/partner-sidebar.css" afterPath="$PROJECT_DIR$/task15/module/partner-sidebar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/partner.css" afterPath="$PROJECT_DIR$/task15/module/partner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/sift.css" afterPath="$PROJECT_DIR$/task15/module/sift.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/slideshow.css" afterPath="$PROJECT_DIR$/task15/module/slideshow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/step.css" afterPath="$PROJECT_DIR$/task15/module/step.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task15/module/subnav.css" afterPath="$PROJECT_DIR$/task15/module/subnav.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task5/task5.css" afterPath="$PROJECT_DIR$/task5/task5.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task5/task5.html" afterPath="$PROJECT_DIR$/task5/task5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task6/liebiaoye.html" afterPath="$PROJECT_DIR$/task6/liebiaoye.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task6/task6.css" afterPath="$PROJECT_DIR$/task6/task6.css" />
     </list>
     <ignored path="csstask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +22,28 @@
     <favorites_list name="csstask" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="task5.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task5/task5.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task5/task5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="81" column="16" lean-forward="false" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -173,6 +171,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csstask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csstask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -291,7 +303,7 @@
       <workItem from="1486701051207" duration="37886000" />
       <workItem from="1486778211120" duration="15139000" />
       <workItem from="1486830343916" duration="13000" />
-      <workItem from="1486830380959" duration="13959000" />
+      <workItem from="1486830380959" duration="14794000" />
     </task>
     <task id="LOCAL-00001" summary="task4 paiban">
       <created>1483016702601</created>
@@ -304,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260241000" />
+    <option name="totallyTimeSpent" value="261076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,9 +329,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="682" y="0" width="925" height="907" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24689966" sideWeight="0.4948052" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24689966" sideWeight="0.4948052" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33039093" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987013" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -729,18 +741,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task5/task5.css">
+    <entry file="file://$PROJECT_DIR$/task5/task5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="329">
+          <caret line="81" column="16" lean-forward="false" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task5/task5.html">
+    <entry file="file://$PROJECT_DIR$/task5/task5.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="42">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>
