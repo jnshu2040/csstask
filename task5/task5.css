@@ -6,10 +6,10 @@ html{width:100%;
     font-size:625%;
     font-family: "Hiragino Sans GB W3", "Microsoft YaHei UI Light", sans-serif;
 }
-@media screen and (max-width: 500px){
-    html{font-size: 312.5%;}
-    body,header,footer{max-width: 14.4rem;}
-}
+/*@media screen and (max-width: 500px){*/
+    /*html{font-size: 312.5%;}*/
+    /*body,header,footer{max-width: 14.4rem;}*/
+/*}*/
 body{
     width:100%;
     max-width: 7.2rem;

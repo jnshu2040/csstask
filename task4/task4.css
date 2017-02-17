@@ -27,13 +27,17 @@ body{
     height:128px;/*header 的高度???*/
 }
 .h-back{
-    float:left;
+    position:absolute;
+    left:0;
+    display: inline-block;
 }
 .h-login{
     display: inline-block;
 }
 .h-register{
-    float: right;
+    position: absolute;
+    right: 0;
+    display: inline-block;
 }
 /*********表单************/
 .account,.password{
